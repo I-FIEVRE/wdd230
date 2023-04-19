@@ -30,7 +30,8 @@ img {
 }
 
 h1 {
-    text-shadow: 0 0 1em black;
+    text-shadow: 2px 2px 5px black;
+    margin-top: auto;
 }
 
 h2 {
