@@ -24,12 +24,12 @@ header {
     grid-template-columns: 150px auto;   
 }
 
-img {
+header img {
     border-radius: 50%;
     box-shadow: 0 0 1em black;
 }
 
-h1 {
+header h1 {
     text-shadow: 0 0 1em black, 0 0 0.2em black;
     margin-top: auto;
 }
@@ -38,19 +38,18 @@ header a:hover {
     text-shadow: 0 0 1em #fbfbfb;
 }
 
-h2 {
+main h2 {
     text-shadow: 2px 2px 4px #696969;
 }
 
-ul {
+main nav ul {
     font-weight: bold; 
 }
 
-nav a {
+main nav a {
     color: #696969;
 }
-
-nav a:hover {
+main nav a:hover {
     color: rgba(61, 21, 142, 0.75);
 }
 
@@ -65,4 +64,11 @@ footer {
 #little {
     font-size: smaller;
     color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    header img {
+        max-width: 80%;
+    }
 }
