@@ -3,11 +3,6 @@
         max-width: 450px;
     }
 
-    header, footer {
-        box-shadow: 0 0 1em black, 0 0 2em #696969;
-        border-radius: 10px;
-    }
-
     header {
         display: grid;
         grid-template-columns: 150px auto;   

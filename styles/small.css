@@ -16,6 +16,8 @@ header, footer {
     color: #fbfbfb;
     text-align: center;
     padding: 1.5rem;
+    box-shadow: 0 0 1em black, 0 0 2em #696969;
+    border-radius: 10px;
 }
 
 header {
