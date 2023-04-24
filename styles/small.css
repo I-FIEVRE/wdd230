@@ -8,32 +8,31 @@ body {
 
 header, nav, main, footer {
     margin: 2rem auto;
-    max-width: 550px;
+    max-width: 250px;
 }
 
 header, footer {
     background-color: rgba(61, 21, 142, 0.75);
-    box-shadow: 0 0 1em black, 0 0 2em #696969;
-    border-radius: 10px;
     color: #fbfbfb;
     text-align: center;
     padding: 1.5rem;
 }
 
 header {
-    display: grid;
-    grid-template-columns: 150px auto;   
+    display: block;  
 }
 
 header img {
     border-radius: 50%;
     box-shadow: 0 0 1em black;
-    max-width: 100%;
+    margin: 1rem;
+    max-width: 50%;
 }
 
 header h1 {
     text-shadow: 0 0 1em black, 0 0 0.2em black;
     margin-top: auto;
+    font-size: 1.5rem;
 }
 
 header a:hover {
@@ -42,10 +41,13 @@ header a:hover {
 
 main h2 {
     text-shadow: 2px 2px 4px #696969;
+    font-size: 1.2rem;
 }
 
 main nav ul {
     font-weight: bold; 
+    font-size: 1rem;
+
 }
 
 main nav a {
@@ -57,47 +59,18 @@ main nav a:hover {
 
 main p {
     font-style: italic;
+    font-size: 0.8rem;
 }
 
 footer {
     line-height: 0.8rem;
 }
 
+footer p {
+    font-size: 0.8rem;
+}
+
 #little {
-    font-size: smaller;
+    font-size: 0.6rem;
     color: black;
-}
-
-
-@media screen and (max-width: 800px) {
-    header, nav, main, footer {
-        max-width: 450px;
-    }
-    header img {
-        max-width: 80%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    header, nav, main, footer {
-        max-width: 350px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    header, nav, main, footer {
-        max-width: 250px;
-    }
-
-    header h1 {
-        font-size: large;
-    }
-
-    footer p{
-        font-size: smaller;
-    }
-
-    #little {
-        font-size: small;
-    }
 }
