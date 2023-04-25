@@ -32,7 +32,8 @@ header h2 {
 }
 
 .grid-main {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 main section {
