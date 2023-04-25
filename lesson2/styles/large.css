@@ -1,0 +1,30 @@
+@media only screen and (min-width: 64em) {
+    header, nav, main, section, footer {
+        max-width: 900px;
+    }
+
+    .grid-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .repetition {
+       grid-column: 1/2;  
+    }
+
+    .space {
+        grid-column: 2/3;
+    }
+
+    .contrast {
+        grid-column: 3/4;
+    }
+
+    .contrast img {
+        min-width: 0px;
+    }
+
+    main section div img {
+        display: block;
+    }
+}

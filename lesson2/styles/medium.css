@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32.5em) {
     header, nav, main, section, footer {
-        max-width: 550px;
+        max-width: 600px;
     }
 
     .grid-main {
@@ -9,13 +9,11 @@
     }
 
     .repetition {
-       display: block;
-       
+       display: block;  
     }
 
     .space {
         display: block;
-        
     }
 
     .contrast {
@@ -27,8 +25,6 @@
     }
 
     .contrast img {
-        max-width: 400%;
-        margin-left: auto;
-        margin-right: auto;
+        min-width: 450px;
     } 
 }
