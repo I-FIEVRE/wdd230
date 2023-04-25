@@ -23,8 +23,4 @@
     .contrast img {
         min-width: 0px;
     }
-
-    main section div img {
-        display: block;
-    }
 }
