@@ -18,13 +18,27 @@
 
     .contrast {
         grid-column: span 2;
+        border-image: 0.5rem;
     }
 
     main section div img {
         display: block;
     }
 
+    main section div p, a, footer p { 
+        font-size: 1rem;
+    }
+
+    .normal {
+        display: none;
+    }
+
+    .medium {
+        display: block;
+    }
+
     .contrast img {
         min-width: 450px;
     } 
+
 }
