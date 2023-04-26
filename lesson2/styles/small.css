@@ -66,6 +66,9 @@ main section div img {
     margin-right: auto;
 }
 
+main section div p, a{
+    padding: 0 0.5rem;
+}
 
 main section div p, a, footer p { 
     font-size: 0.8rem;
