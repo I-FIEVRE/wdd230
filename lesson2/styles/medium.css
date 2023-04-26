@@ -16,9 +16,8 @@
         display: block;
     }
 
-    .contrast {
+    .contrast{
         grid-column: span 2;
-        border-image: 0.5rem;
     }
 
     main section div img {
