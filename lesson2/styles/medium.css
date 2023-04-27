@@ -2,43 +2,33 @@
     header, nav, main, section, footer {
         max-width: 600px;
     }
-
     .grid-main {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
     .repetition {
        display: block;  
     }
-
     .space {
         display: block;
     }
-
     .contrast{
         grid-column: span 2;
     }
-
     main section div img {
         display: block;
     }
-
     main section div p, a, footer p { 
         font-size: 1rem;
     }
-
     .normal {
         display: none;
     }
-
     .medium {
         display: block;
         max-width: 97.5%;
     }
-
     .contrast img {
         min-width: 450px;
     } 
-
 }

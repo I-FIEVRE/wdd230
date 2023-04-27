@@ -1,16 +1,13 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');*/
-
 body {
     font-family: 'Almarai', arial, sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
-
 header, nav, main, footer {
     margin: 2rem auto;
     max-width: 250px;
 }
-
 header, footer {
     background-color: rgba(61, 21, 142, 0.75);
     color: #fbfbfb;
@@ -19,59 +16,47 @@ header, footer {
     box-shadow: 0 0 1em black, 0 0 2em #696969;
     border-radius: 10px;
 }
-
 header {
     display: block;  
 }
-
 header img {
     border-radius: 50%;
     box-shadow: 0 0 1em black;
     margin: 1rem;
     max-width: 50%;
 }
-
 header h1 {
     text-shadow: 0 0 1em black, 0 0 0.2em black;
     margin-top: auto;
     font-size: 1.5rem;
 }
-
 header a:hover {
     text-shadow: 0 0 1em #fbfbfb;
 }
-
 main h2 {
     text-shadow: 2px 2px 4px #696969;
     font-size: 1.2rem;
 }
-
 main nav ul {
     font-weight: bold; 
     font-size: 1rem;
-
 }
-
 main nav a {
     color: #696969;
 }
 main nav a:hover {
     color: rgba(61, 21, 142, 0.75);
 }
-
 main p {
     font-style: italic;
     font-size: 0.8rem;
 }
-
 footer {
     line-height: 0.8rem;
 }
-
 footer p {
     font-size: 0.8rem;
 }
-
 #little {
     font-size: 0.6rem;
     color: black;

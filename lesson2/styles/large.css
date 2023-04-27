@@ -2,48 +2,37 @@
     header, nav, main, section, footer {
         max-width: 900px;
     }
-
     .grid-main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-
     .repetition {
        grid-column: 1/2;  
     }
-
     .space {
         grid-column: 2/3;
     }
-
     .contrast {
         grid-column: 3/4;
     }
-
     header h1 {
         margin-top: auto;
         font-size: 2rem;
-    }
-    
+    }    
     header h2 {
         margin-bottom: auto;
         font-size: 1.6rem;
-    }
-    
+    }    
     .contrast img {
         min-width: 0px;
     }
-
     main section div p, a, footer p {
         font-size: 1.2rem;
     }
-
     .medium {
         display: none;
     }
-
     .normal {
         display: block;
-    }
-    
+    }   
 }
