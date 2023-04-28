@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32.5em) {
     header, nav, main, section, footer {
-        max-width: 600px;
+        max-width: 800px;
     }
     .grid-main {
         display: grid;
@@ -21,14 +21,28 @@
     main section div p, a, footer p { 
         font-size: 1rem;
     }
+    .normal-1 {
+        display: none;
+    }
+    .medium-1 {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media screen and ((min-width: 45em) or (orientation: landscape)) {
+    header, nav, main, section, footer {
+        margin: 0.5rem auto;
+        max-width:750px;
+    }
+    main section div img {
+        min-width: 98%;
+        margin-top: 0.5rem;
+    }
     .normal {
         display: none;
     }
     .medium {
         display: block;
-        max-width: 97.5%;
-    }
-    .contrast img {
-        min-width: 450px;
-    } 
+    }   
 }

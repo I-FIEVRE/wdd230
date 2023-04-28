@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64em) {
     header, nav, main, section, footer {
-        max-width: 900px;
+        max-width: 1350px;
     }
     .grid-main {
         display: grid;
@@ -23,16 +23,16 @@
         margin-bottom: auto;
         font-size: 1.6rem;
     }    
-    .contrast img {
+   /* .contrast img {
         min-width: 0px;
-    }
+    }*/
     main section div p, a, footer p {
         font-size: 1.2rem;
     }
-    .medium {
+    .medium, .medium-1 {
         display: none;
     }
-    .normal {
+    .normal, .normal-1{
         display: block;
     }   
 }

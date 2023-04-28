@@ -4,8 +4,8 @@ body {
     line-height: 1.5;
 }
 header, nav, main, section, footer {
-    margin: 1rem auto;
-    max-width: 250px;
+    margin: 0.5rem auto;
+    max-width: 300px;
 }
 header, footer {
     background-color:#0a2032;
@@ -50,6 +50,7 @@ main section div img {
     border: 1px solid #3a4958;
     max-width: 100%;
     margin-top: 0.5rem;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -59,10 +60,29 @@ main section div p, a{
 main section div p, a, footer p { 
     font-size: 0.8rem;
 }
-.medium {
+.medium, .medium-1 {
     display: none;
 } 
 footer {
     line-height: 1.2rem;
     padding: 0.8rem;
+}
+
+@media screen and (orientation: landscape) {
+    header, nav, main, section, footer {
+        margin: 0.5rem auto;
+        max-width: 450px;
+    }
+    main section div img {
+        min-width: 95%;
+        margin-top: 0.5rem;
+    }
+
+    .normal, .normal-1 {
+        display: none;
+    }
+    .medium, .medium-1 {
+        display: block;
+        max-width: 70%;
+    }
 }
