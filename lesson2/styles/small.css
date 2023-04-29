@@ -28,12 +28,17 @@ header h2 {
     display: grid;
     grid-template-columns: 1fr;
 }
-main section {
-    background-color: #3a4958;
+main section {   
+    background-color: #eeeeee;
     border: 1px solid #3a4958;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px; 
     margin: 0.5rem; 
+}
+.top {
+    background-color: #3a4958;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; 
 }
 main section h3 {
     color: #fbfbfb;
