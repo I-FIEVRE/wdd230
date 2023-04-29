@@ -23,16 +23,7 @@
         margin-bottom: auto;
         font-size: 1.6rem;
     }    
-   /* .contrast img {
-        min-width: 0px;
-    }*/
     main section div p, a, footer p {
         font-size: 1.2rem;
     }
-    .medium, .medium-1 {
-        display: none;
-    }
-    .normal, .normal-1{
-        display: block;
-    }   
 }
