@@ -16,7 +16,13 @@
     main h2 {
         font-size: 2rem ;
     }
-    main nav ul {
+    .small {
+        display: none;
+    }
+    .medium {
+        display: block;
+    }
+    main nav ol, main nav ol li ul li {
         font-size: 1.5rem;
     }
     main p {

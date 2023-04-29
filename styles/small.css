@@ -2,22 +2,22 @@
 body {
     font-family: 'Almarai', arial, sans-serif;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 header, nav, main, footer {
     margin: 2rem auto;
-    max-width: 250px;
+    max-width:250px;
 }
 header, footer {
     background-color: rgba(61, 21, 142, 0.75);
     color: #fbfbfb;
     text-align: center;
-    padding: 1.5rem;
     box-shadow: 0 0 1em black, 0 0 2em #696969;
     border-radius: 10px;
 }
 header {
-    display: block;  
+    display: block; 
+    padding: 1.5rem; 
 }
 header img {
     border-radius: 50%;
@@ -37,9 +37,14 @@ main h2 {
     text-shadow: 2px 2px 4px #696969;
     font-size: 1.2rem;
 }
-main nav ul {
+main nav ol {
     font-weight: bold; 
-    font-size: 1rem;
+    font-size: 0.8rem;
+}
+main nav ol li ul li {
+    list-style: square;
+    list-style-position: outside;
+    font-size: 0.7rem;
 }
 main nav a {
     color: #696969;
@@ -47,15 +52,19 @@ main nav a {
 main nav a:hover {
     color: rgba(61, 21, 142, 0.75);
 }
+.medium {
+    display: none;
+}
 main p {
     font-style: italic;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 footer {
     line-height: 0.8rem;
+    padding: 0.5rem;
 }
 footer p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 #little {
     font-size: 0.6rem;
