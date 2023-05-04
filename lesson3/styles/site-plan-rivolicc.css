@@ -52,11 +52,11 @@ p {
 }
 .accent1 {
   background-color: var(--accent1-color);
-  color: #ffffff;
+  color: black;
 }
 .accent2{
   background-color: var(--accent2-color);
-  color: #427198;
+  color: black;
 }
 p.colored {
   background-color: var(--paragraph-background-color);
