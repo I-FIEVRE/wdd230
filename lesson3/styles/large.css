@@ -2,27 +2,19 @@
     header, nav, main, section, footer {
         max-width: 1350px;
     }
-    .persona {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .repetition {
-       grid-column: 1/2;  
-    }
-    .space {
-        grid-column: 2/3;
-    }
-    .contrast {
-        grid-column: 3/4;
-    }
+
     nav ul {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);	
 	} 
-    .rivoli-nav ul {
+   /* .rivoli-nav ul {
         display: grid;
 		grid-template-columns: repeat(6, 1fr);	
-    }
+    }*/
+    .rivoli-nav ul {
+		display: grid;
+		grid-template-columns: minmax(200px, 250px) repeat(auto-fill, 250px) 16.66%;	
+	} 
     nav a {
         font-size: 1.6rem;
     }

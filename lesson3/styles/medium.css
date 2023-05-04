@@ -7,12 +7,16 @@
     }
     nav ul {
 		display: grid;
-		grid-template-columns: minmax(140px, 1fr) repeat(auto-fill, 280px) 33.33%;	
+		grid-template-columns: minmax(140px, 250px) repeat(auto-fill, 250px) 33.33%;	
 	} 
     .rivoli-nav ul {
 		display: grid;
-		grid-template-columns: minmax(135px, 1fr) repeat(auto-fill, 200px) 16.66%;	
+		grid-template-columns: minmax(150px, 200px) repeat(auto-fill, 200px) 16.66%;	
 	} 
+    .rivoli-nav {
+        padding: 0.5 rem auto;
+        /*margin: auto;*/
+    }
 	nav a {
 		font-size: 1.3rem;
         padding: 1rem;
@@ -33,9 +37,12 @@
         padding-left: 50px;
         padding-right: 50px;
        }
-    .colors, .accent2 {
+    .colors{
         font-size: 1.2rem;
     }  
+    .accent2 {
+        font-size: 1.3rem;
+    }
     footer {
         font-size: 0.9rem;
     }
