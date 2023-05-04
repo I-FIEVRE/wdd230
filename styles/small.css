@@ -37,11 +37,11 @@ main h2 {
     text-shadow: 2px 2px 4px #696969;
     font-size: 1.2rem;
 }
-main nav ol {
+main nav ul {
     font-weight: bold; 
     font-size: 0.8rem;
 }
-main nav ol li ul li {
+main nav ul li ul li {
     list-style: square;
     list-style-position: outside;
     font-size: 0.7rem;
@@ -64,9 +64,9 @@ footer {
     padding: 0.5rem;
 }
 footer p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 #little {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color: black;
 }

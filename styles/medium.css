@@ -22,16 +22,16 @@
     .medium {
         display: block;
     }
-    main nav ol, main nav ol li ul li {
+    main nav ul, main nav ul li ul li {
         font-size: 1.5rem;
     }
     main p {
         font-size: 1rem;
     }
     footer p {
-        font-size: 1rem ;
+        font-size: 1.2rem ;
     }
     #little {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
