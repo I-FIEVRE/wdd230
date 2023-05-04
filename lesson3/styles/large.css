@@ -7,14 +7,7 @@
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);	
 	} 
-   /* .rivoli-nav ul {
-        display: grid;
-		grid-template-columns: repeat(6, 1fr);	
-    }*/
-    .rivoli-nav ul {
-		display: grid;
-		grid-template-columns: minmax(200px, 250px) repeat(auto-fill, 250px) 16.66%;	
-	} 
+  
     nav a {
         font-size: 1.6rem;
     }
