@@ -57,13 +57,24 @@ nav ul li a {
 }
 
 .active {
-	color: black;
+	font-weight: bold;
 }
 
 nav a:hover {
 	background: linear-gradient(90deg, transparent, #427198, transparent) bottom /
 		var(--d, 0) 3px no-repeat;
 }
+
+nav a:hover {
+	--d: 75%;
+}
+
+.active {
+	background: linear-gradient(90deg, transparent, #fbfbfb, transparent) bottom /
+	var(--d) 3px no-repeat;
+	--d: 75%;
+}
+
 
 .home {
 	display: grid;
@@ -86,13 +97,20 @@ main h3 {
 main p {
     font-size: 0.9rem;
 	padding: 1em;
+	text-align: left;
 }
 
-img {
+#logo {
 	display: block;
 	margin: 0 auto;
-	max-width: 300px;
+	max-width: 100px;
+	border-radius: 15px;
   }
+
+#logo:hover {
+		content: url('../images/rivolicc-logo-hover.png');
+		max-width: 100px;
+}
 
 hr {
 	height: 3px;
@@ -102,11 +120,7 @@ hr {
 
 footer {
 	text-align: center;
-	line-height: 0.8rem;
+	line-height:1.2rem;
     padding: 0.5rem;
-}
-
-footer {
-    line-height: 1.2rem;
-    padding: 0.8rem;
+	font-size: 0.8rem;
 }
