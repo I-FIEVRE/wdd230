@@ -1,0 +1,40 @@
+@media only screen and (min-width: 32.5em) {
+    header, nav, main, section, footer {
+        max-width: 800px;
+    }
+
+    nav ul {
+		display: grid;
+		grid-template-columns: repeat(3,  1fr);	
+	} 
+
+	nav a {
+		font-size: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+	}
+   
+    nav a:hover {
+        --d: 75%;
+    }
+
+    .active a:hover {
+        --d: 0%;
+    }
+
+@media screen and ((min-width: 45em) or (orientation: landscape)) {
+    header, nav, main, section, footer {
+        margin: 0.5rem auto;
+        max-width:750px;
+    }
+    main section div img {
+        min-width: 98%;
+        margin-top: 0.5rem;
+    }
+    .normal {
+        display: none;
+    }
+    .medium {
+        display: block;
+    }   
+}
