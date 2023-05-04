@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 body {
+	margin:auto;
     font-family: 'Almarai', arial, sans-serif;
     font-size: 18px;
     line-height: 1.8;
@@ -74,9 +75,14 @@ main p {
 	text-align: left;
 	margin: auto;
 }
-#colors {
-	font-size: 0.7rem;
+.colors {
+	font-size: 0.9rem;
+} 
+
+.accent2 {
+	font-size: 1rem;
 }
+
 #logo {
 	display: block;
 	margin: 0 auto;
