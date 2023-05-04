@@ -98,6 +98,7 @@ main p {
     font-size: 0.9rem;
 	padding: 1em;
 	text-align: left;
+	margin: auto;
 }
 
 #logo {
