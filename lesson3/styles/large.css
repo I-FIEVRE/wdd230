@@ -1,10 +1,10 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 67em) {
     header, nav, main, section, footer {
         max-width: 1350px;
     }
-    .grid-main {
+    .persona {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .repetition {
        grid-column: 1/2;  
@@ -15,16 +15,17 @@
     .contrast {
         grid-column: 3/4;
     }
-
     nav ul {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);	
 	} 
-
+    .rivoli-nav ul {
+        display: grid;
+		grid-template-columns: repeat(6, 1fr);	
+    }
     nav a {
         font-size: 1.6rem;
     }
-
     header h1 {
         margin-top: auto;
         font-size: 2rem;
