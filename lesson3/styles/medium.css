@@ -38,10 +38,17 @@
     .accent2 {
         font-size: 1.3rem;
     }
-    .target{
+    .persona{
         display: grid;
-        grid-template-columns: 2fr;	
-        text-align: center;
+        grid-template-columns: 5% 42.5% 5% 42.5% 5%;	
+    }
+    .maria {
+        grid-column: 2/3;
+        padding: 0;
+    }
+    .luis {
+        grid-column: 4/5;
+        padding: 0;
     }
     footer {
         font-size: 0.9rem;

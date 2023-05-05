@@ -23,6 +23,16 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+    .maria {
+        grid-column: 2/3;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .luis {
+        grid-column: 4/5;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
     footer p {
         padding: auto;
         font-size: 1rem;
