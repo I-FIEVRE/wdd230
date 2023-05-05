@@ -10,9 +10,6 @@
 		display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	} 
-    .rivoli-nav {
-        padding: 0.5 rem auto;
-    }
 	nav a {
 		font-size: 1.3rem;
         padding: 1rem;
