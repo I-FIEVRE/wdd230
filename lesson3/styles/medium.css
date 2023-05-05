@@ -2,13 +2,13 @@
     header, nav, main, section, footer {
         max-width: 800px;
     }
-    nav ul {
+    header nav ul {
 		display: grid;
-		grid-template-columns: minmax(140px, 250px) repeat(auto-fill, 250px) 33.33%;	
+        grid-template-columns: repeat(3, 1fr);
 	} 
     .rivoli-nav ul {
 		display: grid;
-		grid-template-columns: minmax(150px, 200px) repeat(auto-fill, 200px) 16.66%;	
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	} 
     .rivoli-nav {
         padding: 0.5 rem auto;
