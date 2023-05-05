@@ -101,6 +101,11 @@ hr {
 	grid-template-columns: 1fr;	
 	text-align: center;
 }
+.target{
+	display: grid;
+	grid-template-columns: 1fr;	
+	text-align: center;
+}
 footer {
 	text-align: center;
 	line-height:1.2rem;

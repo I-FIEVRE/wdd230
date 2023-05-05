@@ -2,9 +2,6 @@
     header, nav, main, section, footer {
         max-width: 800px;
     }
-    header {
-        letter-spacing: 0.2rem;
-    }
     nav ul {
 		display: grid;
 		grid-template-columns: minmax(140px, 250px) repeat(auto-fill, 250px) 33.33%;	
@@ -40,6 +37,11 @@
     }  
     .accent2 {
         font-size: 1.3rem;
+    }
+    .target{
+        display: grid;
+        grid-template-columns: 2fr;	
+        text-align: center;
     }
     footer {
         font-size: 0.9rem;

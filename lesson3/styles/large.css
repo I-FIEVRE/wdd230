@@ -4,7 +4,7 @@
     }
     nav ul {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);	
+		grid-template-columns: minmax(140px, 350px) repeat(auto-fill, 350px) 33.33%;	
 	} 
     nav a {
         font-size: 1.6rem;
