@@ -13,9 +13,12 @@
     }
     .rivoli-nav ul {
 		display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         align-items: center;
-	} 
+	}
+    .rivoli-nav ul {
+        margin-right: 2rem;
+    }
 	nav a {
 		font-size: 1.3rem;
         padding: 1rem;
