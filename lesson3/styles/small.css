@@ -117,6 +117,10 @@ main article section {
 	background-color: #427198;
 	color: #ffffff;
 }
+main article section h3{
+	color: #ffffff;
+	padding: 1rem;
+}
 main section p {
 	padding-left: 1rem;
 	padding-right: 1rem;
