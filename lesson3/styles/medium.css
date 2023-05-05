@@ -3,8 +3,9 @@
         max-width: 800px;
     }
     header nav ul {
-		display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+		/*display: grid;
+        grid-template-columns: repeat(3, 1fr);*/
 	} 
     .rivoli-nav ul {
 		display: grid;
