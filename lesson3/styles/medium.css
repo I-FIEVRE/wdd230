@@ -7,7 +7,7 @@
 		/*display: grid;
         grid-template-columns: repeat(3, 1fr);*/
 	} 
-   header nav ul li {
+    header nav ul li {
         padding-left: 1rem;
         padding-right: 1rem;
     }
