@@ -78,18 +78,15 @@ main p {
 .colors {
 	font-size: 0.9rem;
 } 
-
 .accent2 {
 	font-size: 1rem;
 }
-
 #logo {
 	display: block;
 	margin: 0 auto;
 	max-width: 100px;
 	border-radius: 15px;
   }
-
 #logo:hover {
 		content: url('../images/rivolicc-logo-hover.png');
 		max-width: 100px;

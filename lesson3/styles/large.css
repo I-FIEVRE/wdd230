@@ -2,29 +2,27 @@
     header, nav, main, section, footer {
         max-width: 1350px;
     }
-
     nav ul {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);	
 	} 
-  
     nav a {
         font-size: 1.6rem;
     }
-    header h1 {
-        margin-top: auto;
-        font-size: 2rem;
-    }    
-    header h2 {
-        margin-bottom: auto;
+    main h1 {
         font-size: 1.6rem;
     }    
+    main h2 {
+        font-size: 1.4rem;
+    } 
+    main h3 {
+        font-size: 1.3rem;
+    }
     main p {
         font-size: 1.2rem;
         padding-left: 100px;
         padding-right: 100px;
     }
-
     footer p {
         padding: auto;
         font-size: 1rem;

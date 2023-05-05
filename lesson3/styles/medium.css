@@ -21,8 +21,7 @@
         padding: 1rem;
         margin: 1rem;
 	}
-    main h1 {
-        
+    main h1 {   
         font-size: 1.4rem;
     }
     main h2 {
@@ -44,6 +43,5 @@
     }
     footer {
         font-size: 0.9rem;
-    }
-   
+    }  
 }
