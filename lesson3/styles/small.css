@@ -130,9 +130,6 @@ main article p {
 .persona img {
 	padding: 0.2rem;
 	text-align: center;
-	border-radius: 50%;
-	background-color: #ffffff;
-	border: 2px solid #E8D152;
 }
 
 .manager{
