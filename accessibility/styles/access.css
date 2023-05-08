@@ -1,0 +1,10 @@
+.line{
+	padding-top: 1rem;
+	vertical-align: middle;
+}
+.historic, .access {
+    list-style: disc;
+    margin: 0 auto;
+    text-align: left;
+    list-style-position: inside;
+}
