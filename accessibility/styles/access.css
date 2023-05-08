@@ -2,9 +2,20 @@
 	padding-top: 1rem;
 	vertical-align: middle;
 }
-.historic, .access {
+.access {
     list-style: disc;
-    margin: 0 auto;
+    margin-left: 2rem;
     text-align: left;
     list-style-position: inside;
 }
+@media only screen and (min-width: 37.5em) {
+    .access {
+        margin-left: 5rem;
+}
+}
+@media only screen and (min-width: 67em) {
+    .access {
+        margin-left: 10rem;
+}
+}
+
