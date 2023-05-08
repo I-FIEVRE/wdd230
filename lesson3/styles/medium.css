@@ -7,9 +7,9 @@
 		/*display: grid;
         grid-template-columns: repeat(3, 1fr);*/
 	} 
-    header nav ul li {
-        flex: 1;
-    }
+    /*header nav ul li {
+        flex: 1 1 100%;
+    }*/
     .audience {
         padding-left: 2rem;
         padding-right: 2rem;
