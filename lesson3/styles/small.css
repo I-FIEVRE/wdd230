@@ -46,6 +46,7 @@ nav a:hover {
 	background: linear-gradient(90deg, transparent, #427198, transparent) bottom /
 	var(--d, 0) 3px no-repeat;
 	--d: 75%;
+	font-weight: bold;
 }
 .active {
 	font-weight: bold;

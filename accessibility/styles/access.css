@@ -1,6 +1,5 @@
 .line{
-	padding-top: 1rem;
-	vertical-align: middle;
+	display:none;
 }
 .access {
     list-style: disc;
@@ -10,6 +9,11 @@
     font-size: 0.9rem;
 }
 @media only screen and (min-width: 37.5em) {
+    .line{
+        padding-top: 1rem;
+        vertical-align: middle;
+        display: flex;
+    }
     .access {
         margin-left: 5rem;
         font-size: 1rem;
