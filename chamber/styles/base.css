@@ -4,11 +4,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/** {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}*/
 header, nav, main, footer {
     max-width:560px;
 }
@@ -130,7 +125,7 @@ nav ul li a {
 	padding: 0.4rem 1vw;
 	text-decoration: none;
 }
-nav ul li.active {
+.active {
     font-weight: bold;
     color: #fff;
 }
@@ -215,12 +210,13 @@ footer div { margin-bottom: 1rem;}
 footer div p a {
     color: #ffffff;
     text-decoration: none;
+	font-weight: bold;
 }
 .address {
     font-style: italic;
 }
 footer div p a:hover{
-    background: linear-gradient(90deg, transparent, #ffffff, transparent) bottom /
+    background: linear-gradient(90deg, transparent, #427198, transparent) bottom /
 	var(--d, 0) 3px no-repeat;
 	--d: 75%;
 	font-weight: bold;

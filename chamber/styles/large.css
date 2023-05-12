@@ -2,7 +2,6 @@
     header, nav, main, section, article, footer {
         max-width: 1800px;
     }
-    /*header {letter-spacing: 0.2rem;}*/
     nav button { display: none; }
     .logo {
         flex: 2 1 100px;
@@ -23,9 +22,6 @@
         display: block;
         color: #ffffff;
         text-align: center;
-        /*min-width: 120px;
-        padding: 0.5em;
-        margin: 0.2em;*/
         text-decoration: none;
         transition: 0.5s;
     }
@@ -88,14 +84,11 @@
         padding-left: 0.5rem;
         border: 2px solid #E8D152;
     }
-    
-    .lf {
+    p.lf {
     font-size: 1rem;
-
     }
-    .logo-footer h1 { 
+    .address h1 { 
         font-size: 1.4rem;
-        line-height: 0.1em;
         text-align: center;
     }
     .address {
@@ -103,12 +96,10 @@
         justify-content: center;
     }
     .logo-footer {
-        flex: 0 1 450px;
-        
+        flex: 0 1 450px;    
     }
     .locaction {
         flex: 0 1 450px;
         font-size: 1.6rem;
-    }
-    
+    }   
 }    

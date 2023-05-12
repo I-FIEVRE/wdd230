@@ -85,26 +85,25 @@
         flex: 0 1 300px;
         text-align: left;
     }
-    .logo-footer h1 { 
-        font-size: 1.2rem;
+    .address h1 { 
+        font-size: 1rem;
         line-height: 1.4em;
-    }
-    .lf {
-        padding-top: 0;
+        margin-bottom: 0.1rem;
     }
     .address {
         display: flex;
         flex-direction: column;
         margin-left: 0.4rem;  
     }
-    .l {
+    p.l {
         line-height: 1.5em;
+        margin-bottom: 0.1rem;
     }
     .locaction {
         flex: 0 1 300px;
         font-size: 1.2rem;
     }
     footer div p {
-        margin-top: 0.1em;
+        margin-top: 0;
     }
 }    
