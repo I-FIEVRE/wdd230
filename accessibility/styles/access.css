@@ -8,6 +8,9 @@
     list-style-position: inside;
     font-size: 0.9rem;
 }
+.yellow {
+    background-color: #E8D152;
+}
 @media only screen and (min-width: 37.5em) {
     .line{
         vertical-align: middle;
@@ -17,12 +20,18 @@
     .access {
         margin-left: 5rem;
         font-size: 1rem;
-}
+    }
+    .yellow {
+        margin-right: 5em;
+    }
 }
 @media only screen and (min-width: 67em) {
     .access {
         margin-left: 10rem;
         font-size:1.2rem;
+    .yellow {
+        margin-right: 15em;
+    }
 }
 }
 
