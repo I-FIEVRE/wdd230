@@ -165,21 +165,24 @@ main p {
 .grid-home {
 	display: grid;
 	grid-template-columns: 1fr;	
-	text-align: center;
+	text-align:left;
+    padding-left: 0.5rem;
 }
 .hero, .event, .weather, .news-release, .article{
 	display: grid;
 	grid-template-columns: 1fr;	
-	text-align: center;
+	text-align: left;
+    padding-left: 0.5rem;
     border: 2px solid #E8D152;
-   margin: 0.5rem;
+    margin: 0.5rem;
 }
-.join {display: none;}
+.do {display: none;}
 .article { padding: 0.5rem;}
 .spotlight-1, .spotlight-2 {
     display: grid;
 	grid-template-columns: 1fr;	
-	text-align: center;
+	text-align: left;
+    padding-left: 0.5rem;
     border: 2px solid #E8D152;
   /* margin: 0.5rem;*/
 }

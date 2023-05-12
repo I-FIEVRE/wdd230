@@ -42,11 +42,50 @@
 	    var(--d) 3px no-repeat;
 	    --d: 75%;
     }
+    .grid-home {
+        display: grid;
+        row-gap: 0.3rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        'event hero hero article' 
+        'weather hero hero article'
+        'do news-release news-release article'
+    }
+    .do {
+        grid-area: do;
+    }
+    .hero {
+        grid-area: hero;
+    }
+    .news-release {
+        grid-area: news-release;
+    }
+    .event {
+        grid-area: event;
+    }
+    .weather {
+        grid-area: weather;
+    }
+    .article {
+        display: grid;
+        grid-area: article;
+        grid-template-areas: 
+        'spotlight-1 spotlight-1'
+        'spotlight-2 spotlight-2'
+        'spotlight-3 spotlight-3';
+    }
+    .spotlight-1 {
+        grid-area: spotlight-1;
+    }
+    .spotlight-2 {
+        grid-area: spotlight-2;
+    }
     .spotlight-3 {
         display: grid;
-        grid-template-columns: 1fr;	
-        text-align: center;
+        grid-area: spotlight-3;
+        text-align: left;
+        padding-left: 0.5rem;
         border: 2px solid #E8D152;
-       margin: 0.5rem;
     }
 }    

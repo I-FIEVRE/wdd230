@@ -2,6 +2,50 @@
     header, nav, main,section, article, footer {
         max-width:1028px;
     }
+    .do {
+        display: grid;
+        grid-area: do;
+        text-align: left;
+        padding-left: 0.5rem;
+        border: 2px solid #E8D152;
+        margin: 0.5rem;
+    }
+    .grid-home {
+        display: grid;
+        row-gap: 0.3rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        'hero hero' 
+        'news-release news-release'
+        'article article'
+        'do do'
+        'event weather';
+    }
+    .hero {
+        grid-area: hero;
+    }
+    .news-release {
+        grid-area: news-release;
+    }
+    .event {
+        grid-area: event;
+    }
+    .weather {
+        grid-area: weather;
+    }
+    .article {
+        display: grid;
+        grid-area: article;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.2rem;
+        grid-template-areas: 'spotlight-1 spotlight-2';
+    }
+    .spotlight-1 {
+        grid-area: spotlight-1;
+    }
+    .spotlight-2 {
+        grid-area: spotlight-2;
+    }
     p.base {display: none;}
     p.medium {display: block;}  
     nav ul {
