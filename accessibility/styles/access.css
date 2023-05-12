@@ -10,8 +10,8 @@
 }
 @media only screen and (min-width: 37.5em) {
     .line{
-        padding-top: 1rem;
         vertical-align: middle;
+        align-items: center;
         display: flex;
     }
     .access {
