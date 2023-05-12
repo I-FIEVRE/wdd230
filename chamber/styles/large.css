@@ -42,10 +42,11 @@
         row-gap: 0.3rem;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        min-height: 800px;
         grid-template-areas:
-        'event hero hero article' 
+        'event hero hero article'
         'weather hero hero article'
-        'do news-release news-release article'
+        'do news-release news-release article';
     }
     .do {
         grid-area: do;
