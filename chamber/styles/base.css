@@ -95,6 +95,8 @@ margin: 1rem auto;
     background-color: #da5f56;
     border: 1px solid #da5f56;
 	text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 1em #CA3F36, 0 0 0.2em #CA3F36;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
