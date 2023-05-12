@@ -1,11 +1,29 @@
-@media only screen and (min-width: 32.5em) {
-    header, nav, main, section, footer {
-        max-width:900px;
+@media only screen and (min-width: 35em) {
+    header, nav, main,section, article, footer {
+        max-width:1028px;
     }
     p.base {display: none;}
     p.medium {display: block;}  
     nav ul {
         line-height: 1.5em;
         font-size: 1.3rem;
+    }
+    #logo {
+        max-width: 100px;
+      }
+    #logo:hover {
+        max-width: 100px;
+    }
+    .title h1 {
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+        line-height: 0.8em;
+        margin: 0.1em 0;
+    }
+    .m {
+    font-size: 1rem;
+    }
+    .social img {
+        max-width: 40px;
     }
 }    

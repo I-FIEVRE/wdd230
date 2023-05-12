@@ -3,12 +3,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-/*
-* {
+
+/** {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }*/
+header, nav, main, footer {
+    max-width:560px;
+}
 body {
 	margin: auto;
     font-family: 'Almarai', arial, sans-serif;
@@ -18,28 +21,50 @@ body {
 header {
     background-color: #CA3F36;
     color: #ffffff;
-	/*flex-direction: column;*/
 	align-items: center;
-	/*justify-content: center;*/
+	justify-content: space-between;
+    padding: 0.3rem;
 }
+
 header, main, footer {
     margin: 0 auto;
-    max-width:500px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    flex: 3 1 50px;
+}
+#primaryNav {
+    flex: 1 1 50px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+.title h1 {
+    font-size: 1rem;
+}
+.m {
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+.social {
+    display: flex;
+    flex:1 1 40px
 }
 .rivoli-nav {
-    display: grid;
-    grid-template-columns: repeat(10, 1 fr);
+    display: flex;
+    flex-direction: row;
     align-items: center;
-   /* display: flex;
-    flex-direction: row;*/
+    margin-left: 0.5rem;
 }
 .rivoli-nav-1 {
     display: none;
 }
 nav button {
-    margin: .2rem 2vw; 
-    display: block;
-    grid-column: 10/11;
+    margin: .1rem 1vw; 
     background-color: transparent;
     border: none;
     font-size: 2rem;
@@ -50,68 +75,48 @@ button span:nth-child(2) {
     margin-bottom: 0;
 }
 #logo {
-/*display: block;*/
-display: grid;
-grid-column: 1/4;
-padding: 0.5rem;
+/*padding: 0.3rem;*/
 margin: 1rem auto;
 }
-
 .title {
-    display: grid;
-    grid-column: 4/8;
     line-height: 0.8;
     font-size: 0.6rem;
     padding-right: 0.5rem;
 }
-.facebook {
-    display: grid;
-    grid-column:8/9; 
-    padding-right: 0.3rem;
-}
 .linkedin {
     background-color: #ffffff;
     border-radius: 5px;
-    display: grid;
-    grid-column: 9/10;
 }
 .social img {
-    padding: 0;
-    margin: 0.5rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+    max-width: 20px;
 }
-
+.social {
+    align-items: center;
+}
 .date {
-    display: grid;
-	grid-column: 1/11;	
 	text-align: center;
-    padding: 0.5rem auto;
-    margin-bottom: 1rem;
+    margin: 0.4rem;
     background-color: #da5f56;
     border: 1px solid #da5f56;
 	text-align: center;
 }
-
 nav ul {display: none;}
-nav ul.open {/*display: block;*/
-display: grid;
-grid-column: 10/11;}
-#hamburgerBtn span:nth-child(1) {
-    /*display: block;*/
-    display: grid;
-    grid-column: 10/11;
+nav ul.open {display: block;}
+#hamburgerBtn span:nth-child(1) { 
+    display: block;
+    border:1px solid #ffffff;
+    padding: 0.2rem;
 }
+#hamburgerBtn span:nth-child(1):hover {font-weight: bold;}
 #hamburgerBtn span:nth-child(2) {display: none;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {/*display: block;*/
-    display: grid;
-    grid-column: 10/11;
-}
-
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+#hamburgerBtn.open span:nth-child(2):hover {font-weight: bold;}
 nav {
 	list-style-type: none;
-	line-height: 1.2em;
-	font-size:1rem;
+	line-height: 1em;
+	font-size:0.9rem;
     background-color: #CA3F36;
 }
 nav ul {
@@ -122,7 +127,7 @@ nav ul {
 nav ul li a {
 	display: block;
 	color: #ffffff;
-	padding: 0.8rem 2vw;
+	padding: 0.4rem 1vw;
 	text-decoration: none;
 }
 nav ul li.active {
@@ -132,19 +137,6 @@ nav ul li.active {
 nav ul li a:hover {
 	font-weight: bold;
 }
-/*.social {
-   display: inline-flex;
-    width: 20%;
-    margin-bottom: 1rem;
-    margin: 1rem;
-}*/
-
-.grid-home {
-	display: grid;
-	grid-template-columns: 1fr;	
-	text-align: center;
-}
-
 main h1 {
     margin-top: 2rem;
     font-size: 1.3rem;
@@ -161,16 +153,19 @@ main p {
 	text-align: left;
 	margin: auto;
 }
-
 #logo {
-	
-	max-width: 100px;
+	max-width: 70px;
 	border-radius: 15px;
 	transition: 0.5s;
   }
 #logo:hover {
-		content: url('../images/rivolicc-logo-hover.png');
-		max-width: 100px;
+	content: url('../images/logo-b.png');
+	max-width: 80px;
+}
+.grid-home {
+	display: grid;
+	grid-template-columns: 1fr;	
+	text-align: center;
 }
 .hero, .event, .weather, .news-release, .article{
 	display: grid;
@@ -178,16 +173,15 @@ main p {
 	text-align: center;
     border: 2px solid #E8D152;
    margin: 0.5rem;
-
 }
 .join {display: none;}
-
+.article { padding: 0.5rem;}
 .spotlight-1, .spotlight-2 {
     display: grid;
 	grid-template-columns: 1fr;	
 	text-align: center;
     border: 2px solid #E8D152;
-   margin: 0.5rem;
+  /* margin: 0.5rem;*/
 }
 main article {
 	line-height: 1.2;
@@ -230,3 +224,4 @@ hr.foot {
     margin: 0 2rem;
   }
 p.medium {display: none;}  
+
