@@ -88,4 +88,27 @@
         padding-left: 0.5rem;
         border: 2px solid #E8D152;
     }
+    
+    .lf {
+    font-size: 1rem;
+
+    }
+    .logo-footer h1 { 
+        font-size: 1.4rem;
+        line-height: 0.1em;
+        text-align: center;
+    }
+    .address {
+        margin-left: 0.6rem;  
+        justify-content: center;
+    }
+    .logo-footer {
+        flex: 0 1 450px;
+        
+    }
+    .locaction {
+        flex: 0 1 450px;
+        font-size: 1.6rem;
+    }
+    
 }    

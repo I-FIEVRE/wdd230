@@ -216,6 +216,9 @@ footer div p a {
     color: #ffffff;
     text-decoration: none;
 }
+.address {
+    font-style: italic;
+}
 footer div p a:hover{
     background: linear-gradient(90deg, transparent, #ffffff, transparent) bottom /
 	var(--d, 0) 3px no-repeat;
