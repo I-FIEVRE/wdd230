@@ -24,7 +24,7 @@ header {
 header, main, footer {
     margin: 0 auto;
 }
-.logo {
+.logo-header {
     display: flex;
     align-items: center;
     margin-left: 1rem;
@@ -38,12 +38,13 @@ header, main, footer {
     flex-direction: column;
     margin-left: 0.5rem;
 }
-.title h1 {
-    font-size: 1rem;
+.title h2 {
+    font-size: 1.1rem;
+    line-height: 0.2em;
 }
 .m {
     font-weight: 400;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .social {
     display: flex;
@@ -69,8 +70,7 @@ button span:nth-child(2) {
     font-size: 1.2rem;
     margin-bottom: 0;
 }
-#logo {
-/*padding: 0.3rem;*/
+.logo {
 margin: 1rem auto;
 }
 .title {
@@ -148,12 +148,12 @@ main p {
 	text-align: left;
 	margin: auto;
 }
-#logo {
+.logo {
 	max-width: 70px;
 	border-radius: 15px;
 	transition: 0.5s;
   }
-#logo:hover {
+.logo:hover {
 	content: url('../images/logo-b.png');
 	max-width: 80px;
 }

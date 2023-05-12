@@ -3,7 +3,7 @@ document.querySelector('#lastUpdated').textContent = `${lastUpdated.toLocaleDate
 document.querySelector('#lastUpdated-1').textContent = `${lastUpdated.toLocaleDateString()} at ${lastUpdated.toLocaleTimeString()}`;
 const currentDate = new Date();
 document.querySelector('#currentyear').textContent = currentDate.getFullYear();
-/*document.querySelector('#currentdate').textContent = `${currentDate.getDay()}, `;*/
+document.querySelector('#currentyear-1').textContent = currentDate.getFullYear();
 const date = document.querySelector("#currentdate");
 try {
     const option = {

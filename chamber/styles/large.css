@@ -3,7 +3,7 @@
         max-width: 1800px;
     }
     nav button { display: none; }
-    .logo {
+    .logo-header {
         flex: 2 1 100px;
     }
     #primaryNav-1 {
@@ -31,8 +31,7 @@
         --d: 75%;
         font-weight: bold;
     }
-
-     .active{
+    .active{
 	    font-weight: bold;
 	    background: linear-gradient(90deg, transparent, #ffffff, transparent) bottom /
 	    var(--d) 3px no-repeat;
@@ -87,7 +86,7 @@
     p.lf {
     font-size: 1rem;
     }
-    .address h1 { 
+    .address h2 { 
         font-size: 1.4rem;
         text-align: center;
     }

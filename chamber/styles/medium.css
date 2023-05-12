@@ -52,13 +52,13 @@
         line-height: 1.5em;
         font-size: 1.3rem;
     }
-    #logo {
+    .logo {
         max-width: 120px;
       }
-    #logo:hover {
+    .logo:hover {
         max-width: 120px;
     }
-    .title h1 {
+    .title h2 {
         font-size: 3rem;
         letter-spacing: 0.2rem;
         line-height: 0.8em;
@@ -85,7 +85,7 @@
         flex: 0 1 300px;
         text-align: left;
     }
-    .address h1 { 
+    .address h2 { 
         font-size: 1rem;
         line-height: 1.4em;
         margin-bottom: 0.1rem;
