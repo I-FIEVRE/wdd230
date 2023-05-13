@@ -70,6 +70,7 @@
     .social img {
         max-width: 40px;
     }
+    .date {padding: 0.3rem;}
     footer div { margin-bottom: 0;}
     .grid-footer {
         display: flex;

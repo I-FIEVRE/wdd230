@@ -37,6 +37,7 @@
 	    var(--d) 3px no-repeat;
 	    --d: 75%;
     }
+    .date {padding: 0.4rem;}
     .grid-home {
         display: grid;
         row-gap: 0.3rem;
