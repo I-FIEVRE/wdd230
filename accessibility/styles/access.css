@@ -18,6 +18,11 @@ h2 {
 .yellow {
     background-color: #E8D152;
 }
+.yellow-1 {
+    background-color: #E8D152;
+    text-align: center;
+    margin: 2rem;
+}
 @media only screen and (min-width: 37.5em) {
     header nav ul li a {
         font-size: 1rem;
@@ -34,6 +39,9 @@ h2 {
     .yellow {
         margin-right: 5em;
     }
+    .yellow-1 {
+        margin: 2rem 5rem;
+    }
 }
 @media only screen and (min-width: 67em) {
     header nav ul li a {
@@ -42,9 +50,11 @@ h2 {
     .access {
         margin-left: 10rem;
         font-size:1.2rem;
+    }
     .yellow {
         margin-right: 15em;
     }
+    .yellow-1 {
+        margin: 2rem 10rem;
+    }
 }
-}
-
