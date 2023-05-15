@@ -43,7 +43,6 @@
         row-gap: 0.3rem;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        min-height: 800px;
         grid-template-areas:
         'event hero hero article'
         'weather hero hero article'
@@ -68,9 +67,9 @@
         display: grid;
         grid-area: article;
         grid-template-areas: 
-        'spotlight-1 spotlight-1'
-        'spotlight-2 spotlight-2'
-        'spotlight-3 spotlight-3';
+        'spotlight-1 spotlight-1 spotlight-1 spotlight-1 spotlight-1 spotlight-1'
+        'spotlight-2 spotlight-2 spotlight-2 spotlight-2 spotlight-2 spotlight-2'
+        'spotlight-3 spotlight-3 spotlight-3 spotlight-3 spotlight-3 spotlight-3';
     }
     .spotlight-1 {
         grid-area: spotlight-1;

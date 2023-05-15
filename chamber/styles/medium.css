@@ -13,13 +13,14 @@
     .grid-home {
         display: grid;
         row-gap: 0.3rem;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr);
+        min-height: 800px;
         grid-template-areas:
-        'hero hero' 
-        'news-release news-release'
-        'article article'
-        'do do'
-        'event weather';
+        'hero hero hero hero hero hero' 
+        'news-release news-release news-release news-release news-release news-release'
+        'article article article article article article'
+        'do do do do do do'
+        'event event event event weather weather';
     }
     .hero {
         grid-area: hero;
@@ -36,9 +37,9 @@
     .article {
         display: grid;
         grid-area: article;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr);
         column-gap: 0.2rem;
-        grid-template-areas: 'spotlight-1 spotlight-2';
+        grid-template-areas: 'spotlight-1 spotlight-1 spotlight-1 spotlight-2 spotlight-2 spotlight-2';
     }
     .spotlight-1 {
         grid-area: spotlight-1;
