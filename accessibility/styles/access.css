@@ -8,6 +8,10 @@ h2 {
     text-align: left;
     margin-left: 6.5rem;
 }
+main a {
+    color: #427198;
+    font-weight: 500;
+}
 .access {
     list-style: disc;
     margin-left: 2rem;
