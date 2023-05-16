@@ -91,6 +91,15 @@
         padding-left: 0.5rem;
         border: 2px solid #E8D152;
     }
+    .hero-img-g {
+        display: block;
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+    .hero-img-b {
+        display: none;
+    }
     /*footer*/
     p.lf {
     font-size: 1rem;
