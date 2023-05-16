@@ -67,7 +67,7 @@
         grid-area: article;
         grid-template-columns: repeat(6, 1fr);
         grid-template-areas: 'spotlight-1 spotlight-1 spotlight-1 spotlight-2 spotlight-2 spotlight-2';
-        column-gap: 1rem;
+        /*column-gap: 1rem;*/
         padding: 1rem;
     }
     .spotlight-1 {

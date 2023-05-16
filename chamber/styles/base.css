@@ -102,7 +102,7 @@ margin: 1rem auto;
 .date {
 	text-align: center;
     margin: 0.4rem;
-    border: 5px ridge #da5f56;
+    border: 5px outset #da5f56;
     font-weight: bold;
     letter-spacing: 0.2em;
     padding: 0.2rem;
@@ -181,7 +181,7 @@ nav ul li a:hover {
 .spotlight-1, .spotlight-2{
     display: grid;
 	grid-template-columns: 1fr;	
-    border: 5px ridge #E8D152;
+    border: 5px outset #E8D152;
 }
 .spotlight-3 {display: none;}
 
@@ -210,7 +210,7 @@ nav ul li a:hover {
 .join{
    background-color: #427198;
    color: #ffffff;
-   border: 5px ridge #E8D152;
+   border: 5px outset #E8D152;
    text-decoration: none;
    font-size: 0.9rem;
    font-weight: 600;
@@ -245,6 +245,9 @@ nav ul li a:hover {
 main article {
 	line-height: 1.2;
 	border: 7px ridge #E8D152;
+    background-color: #427198;
+    color: #ffffff;
+    font-weight: 400;
 }
 main article h3{
 	padding: 1rem;
@@ -267,6 +270,7 @@ main h2 {
 main h3 {
     font-size: 1rem; 
     line-height: 1rem; 
+    
 }
 main p {
     font-size: 0.9rem;
@@ -279,7 +283,7 @@ main p {
 .join-1 {
     background-color: #427198;
     color: #ffffff;
-    border: 5px ridge #E8D152;
+    border: 5px outset #E8D152;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
