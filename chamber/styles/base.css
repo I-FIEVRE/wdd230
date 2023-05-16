@@ -296,6 +296,8 @@ main p {
 .article img {
    margin-left: auto;
    margin-right: auto;
+   width: auto;
+   height: auto;
 }
 /*footer*/
 
