@@ -79,6 +79,12 @@
          padding: 25px 35px;
          font-size: 1.5rem;
       }
+      .hero {
+        max-height: 500px;
+      }
+      .join-1 {
+        margin: 1rem;
+      }
       
    /*footer*/
     p.base {display: none;}

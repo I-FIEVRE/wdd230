@@ -103,14 +103,26 @@
         padding-left: 20px;
         padding-right: 20px;
         height: 50px;
-        justify-content: center;
-        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 0;
     }
     .hero {
-        max-height: 600px;
+        max-height: 650px;
     }
-    .news-release, .do, :event {
+    .article {
+        max-height: 850px;
+    }
+    .weather {
+        max-height: 300px;
+    }
+    .news-release, .do, .event {
         max-height: 250px;
+    }
+    .event, .article, .hero {
+        margin-top: 1rem;
+    }
+    .home-title {
+        margin-top: 1rem;
     }
     /*footer*/
     p.lf {

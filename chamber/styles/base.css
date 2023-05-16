@@ -162,8 +162,8 @@ nav ul li a:hover {
 	grid-template-columns: 1fr;	
     /*align-items: center;
     justify-content: center;*/
-	text-align:center;
-    padding-left: 0.5rem;
+	text-align: center;
+    
 }
 .event, .weather, .news-release, .article{
 	display: grid;
@@ -210,7 +210,7 @@ nav ul li a:hover {
    text-decoration: none;
    font-size: 1rem;
    font-weight: 600;
-   border-radius: 5px;
+   border-radius: 10px;
    margin: 0;
    padding: 15px 25px;
 }
@@ -227,8 +227,11 @@ nav ul li a:hover {
 }
 
 /*general main */
-
-
+.event a {
+    text-decoration: none;
+    color: #427198;
+    font-weight: bold;
+}
 main article {
 	line-height: 1.2;
 	border: 2px solid #E8D152;
@@ -247,6 +250,7 @@ main h1 {
     color: #427198;
 }
 main h2 {
+    padding-top: 0.5rem;
     font-size: 1.2rem;
     color: #427198;
     line-height: 1rem;
@@ -257,8 +261,10 @@ main h3 {
 }
 main p {
     font-size: 0.9rem;
-	padding: 1em;
+	padding-left: 1em;
+    padding-right: 1em;
 	text-align: center;
+    padding-bottom: 1rem;
 	margin: auto;
 }
 .join-1 {
@@ -268,7 +274,7 @@ main p {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -282,7 +288,9 @@ main p {
     height:100%;
     object-fit: cover;
 }
-
+.hero {
+    max-height: 350px;
+}
 /*footer*/
 
 footer {
