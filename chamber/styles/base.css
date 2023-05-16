@@ -200,12 +200,10 @@ nav ul li a:hover {
 .home-title {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 2rem;  
 }
 .button-box{
     grid-column: 2/3;
-    grid-row: 5/6;
-    margin-bottom: 2rem;
+    grid-row: 3/4;
 }
 .join {
    background-color: #427198;
@@ -213,6 +211,7 @@ nav ul li a:hover {
    text-decoration: none;
    font-size: 1rem;
    border-radius: 5px;
+   margin: 0;
    padding: 15px 25px;
 }
 #hero-img {
