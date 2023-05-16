@@ -110,10 +110,10 @@
         max-height: 650px;
     }
     .article {
-        max-height: 850px;
+        max-height: 860px;
     }
     .weather {
-        max-height: 300px;
+        max-height: 400px;
     }
     .news-release, .do, .event {
         max-height: 250px;
@@ -132,6 +132,9 @@
     }
     .spotlight-1 {
         margin-bottom: 0.5rem;
+    }
+    .article img {
+        padding-bottom: 1em;
     }
     /*footer*/
     p.lf {
