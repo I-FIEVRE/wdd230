@@ -87,7 +87,6 @@
     .spotlight-3 {
         display: grid;
         grid-area: spotlight-3;
-        text-align: left;
         padding-left: 0.5rem;
         border: 2px solid #E8D152;
     }
@@ -99,6 +98,19 @@
     }
     .hero-img-b {
         display: none;
+    }
+    .join-1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero {
+        max-height: 600px;
+    }
+    .news-release, .do, :event {
+        max-height: 250px;
     }
     /*footer*/
     p.lf {
