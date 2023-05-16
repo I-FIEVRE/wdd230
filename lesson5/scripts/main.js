@@ -9,12 +9,13 @@ button.addEventListener('click', () => {
     const item = document.createElement('li');
     const text = document.createElement('span');
     const btn = document.createElement('button');
-  
-    item.appendChild(text);
+
+    /*item.appendChild(text);*/
+    item.insertAdjacentText('beforeend', myItem);
     text.textContent = myItem;
     item.appendChild(btn);                 
-    btn.textContent = 'Delete';
-    list.appendChild(item); 
+    btn.textContent = 'X';
+    list.appendChild(item);
 
     btn.addEventListener('click', () => {list.removeChild(item);});
 

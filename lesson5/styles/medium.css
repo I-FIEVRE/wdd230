@@ -6,4 +6,29 @@
 	main {
 		width: 320px;
 	}
+
+	main {
+		margin: 1rem auto;
+		padding: 7rem;
+	}
+	input,
+	button {
+		padding: 0.5rem;
+	}
+	
+	input {
+		min-width: 100px;
+	}
+	main div button {
+		min-width: 100px;
+		margin: 0.3rem;
+		padding: 0.2rem;
+		font-size: 0.8rem;
+	}
+	main div label {
+		min-width: 150px;
+		margin: 0.1rem;
+		padding: 0.1rem;
+		font-size: 0.8rem;
+	}
 }
