@@ -2,6 +2,33 @@
     header, nav, main,section, article, footer {
         max-width:1028px;
     }
+    /*header*/
+    .banner {
+        font-size: 1rem;
+    }
+    nav ul {
+        line-height: 1.5em;
+        font-size: 1.3rem;
+    }
+    .logo {
+        max-width: 120px;
+      }
+    .logo:hover {
+        max-width: 120px;
+    }
+    .title h2 {
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+        line-height: 0.8em;
+        margin: 0.1em 0;
+    }
+    .m {
+    font-size: 1rem;
+    }
+    .social img {
+        max-width: 40px;
+    }
+    /*main*/
     .do {
         display: grid;
         grid-area: do;
@@ -14,7 +41,6 @@
         display: grid;
         row-gap: 0.3rem;
         grid-template-columns: repeat(6, 1fr);
-        min-height: 800px;
         grid-template-areas:
         'hero hero hero hero hero hero' 
         'news-release news-release news-release news-release news-release news-release'
@@ -47,33 +73,18 @@
     .spotlight-2 {
         grid-area: spotlight-2;
     }
-    .banner {
-        font-size: 1rem;
-    }
+    .home-title {
+        font-size: 2rem;
+     }
+     .join {
+         padding: 25px 35px;
+         font-size: 1.7rem;
+      }
+      
+   /*footer*/
     p.base {display: none;}
     p.medium {display: block;}  
-    nav ul {
-        line-height: 1.5em;
-        font-size: 1.3rem;
-    }
-    .logo {
-        max-width: 120px;
-      }
-    .logo:hover {
-        max-width: 120px;
-    }
-    .title h2 {
-        font-size: 3rem;
-        letter-spacing: 0.2rem;
-        line-height: 0.8em;
-        margin: 0.1em 0;
-    }
-    .m {
-    font-size: 1rem;
-    }
-    .social img {
-        max-width: 40px;
-    }
+   
     .date {padding: 0.3rem;}
     footer div { margin-bottom: 0;}
     .grid-footer {

@@ -2,6 +2,8 @@
     header, nav, main, section, article, footer {
         max-width: 1800px;
     }
+
+    /*header*/
     nav button { display: none; }
     .logo-header {
         flex: 2 1 100px;
@@ -20,7 +22,7 @@
     }
    .banner {
         font-size: 1.3rem;
-    }*
+    }
     nav ul li a {
         display: block;
         color: #ffffff;
@@ -41,6 +43,8 @@
 	    --d: 75%;
     }
     .date {padding: 0.4rem;}
+
+    /*main*/
     .grid-home {
         display: grid;
         row-gap: 0.3rem;
@@ -87,6 +91,7 @@
         padding-left: 0.5rem;
         border: 2px solid #E8D152;
     }
+    /*footer*/
     p.lf {
     font-size: 1rem;
     }

@@ -22,12 +22,15 @@ header {
 header, main, footer {
     margin: 0 auto;
 }
+
+/*hearder*/
+
 .banner {
     text-align: center;
     border-radius: 5px;
     border:2px dashed #da5f56;
     line-height: 0.1em;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 } 
 
 .logo-header {
@@ -141,22 +144,7 @@ nav ul li a {
 nav ul li a:hover {
 	font-weight: bold;
 }
-main h1 {
-    margin-top: 2rem;
-    font-size: 1.3rem;
-}
-main h2 {
-    font-size: 1.2rem;
-}
-/*main h3 {
-    font-size: 1rem;  
-}*/
-main p {
-    font-size: 0.9rem;
-	padding: 1em;
-	text-align: left;
-	margin: auto;
-}
+
 .logo {
 	max-width: 70px;
 	border-radius: 15px;
@@ -166,13 +154,16 @@ main p {
 	content: url('../images/logo-b.png');
 	max-width: 80px;
 }
+
+/*main*/
+
 .grid-home {
 	display: grid;
 	grid-template-columns: 1fr;	
 	text-align:left;
     padding-left: 0.5rem;
 }
-.hero, .event, .weather, .news-release, .article{
+.event, .weather, .news-release, .article{
 	display: grid;
 	grid-template-columns: 1fr;	
 	text-align: left;
@@ -190,6 +181,48 @@ main p {
     border: 2px solid #E8D152;
   /* margin: 0.5rem;*/
 }
+.spotlight-3 {display: none;}
+
+/*hero*/
+.hero{
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;	
+    grid-template-rows: 1fr 3fr 1fr ;
+	text-align: center;
+    border: 2px solid #E8D152;
+    margin: 0.5rem;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+}
+.home-title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 2rem;  
+}
+.button-box{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-bottom: 2rem;
+}
+.join {
+   background-color: #427198;
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 1rem;
+   border-radius: 5px;
+   padding: 15px 25px;
+}
+#hero-img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+/*general main */
+
 main article {
 	line-height: 1.2;
 	border: 2px solid #E8D152;
@@ -204,7 +237,26 @@ main article p {
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
-.spotlight-3 {display: none;}
+main h1 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+main h2 {
+    font-size: 1.2rem;
+}
+/*main h3 {
+    font-size: 1rem;  
+}*/
+main p {
+    font-size: 0.9rem;
+	padding: 1em;
+	text-align: left;
+	margin: auto;
+}
+
+
+/*footer*/
+
 footer {
     display: grid;
 	grid-template-columns: 1fr;	
