@@ -18,6 +18,9 @@
     .social {
         flex: 1 1 120px;
     }
+   .banner {
+        font-size: 1.3rem;
+    }*
     nav ul li a {
         display: block;
         color: #ffffff;

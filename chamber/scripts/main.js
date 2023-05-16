@@ -18,3 +18,11 @@ try {
 } catch (e) {
 	console.log("Error with code or your browser does not support Locale");
 };
+
+const divi = document.querySelector('div');
+if (currentDate.getDay() == 1 || currentDate.getDay() == 2) {
+    const para = document.createElement('p');
+    divi.appendChild(para);
+    para.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. 🤝🏼";
+	divi.style.display = "block";
+} else {divi.style.display = "none";}

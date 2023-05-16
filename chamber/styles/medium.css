@@ -47,6 +47,9 @@
     .spotlight-2 {
         grid-area: spotlight-2;
     }
+    .banner {
+        font-size: 1rem;
+    }
     p.base {display: none;}
     p.medium {display: block;}  
     nav ul {
