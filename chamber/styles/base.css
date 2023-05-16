@@ -173,11 +173,10 @@ nav ul li a:hover {
 }
 .do {display: none;}
 .article { padding: 0.5rem;}
-.spotlight-1, .spotlight-2 {
+.spotlight-1, .spotlight-2{
     display: grid;
 	grid-template-columns: 1fr;	
     border: 2px solid #E8D152;
-  /* margin: 0.5rem;*/
 }
 .spotlight-3 {display: none;}
 
@@ -231,6 +230,9 @@ nav ul li a:hover {
     text-decoration: none;
     color: #427198;
     font-weight: bold;
+}
+.event a:hover {
+    color: #CA3F36;
 }
 main article {
 	line-height: 1.2;
