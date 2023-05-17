@@ -25,10 +25,11 @@ header, main, footer {
 .banner {
     text-align: center;
     border-radius: 5px;
-    border:2px solid #da5f56;
+    border:2px dashed #da5f56;
     line-height: 0.1em;
     font-size: 0.7rem;
-}
+} 
+
 .logo-header {
     display: flex;
     align-items: center;
@@ -235,3 +236,18 @@ hr.foot {
   }
 p.medium {display: none;}  
 
+.banner {
+    animation-duration: 3s;
+    animation-name: slidein;
+} 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
