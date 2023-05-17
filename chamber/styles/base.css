@@ -11,6 +11,12 @@ body {
     font-family: 'Almarai', arial, sans-serif;
     line-height: 1.5;
 }
+
+header, main, footer {
+    margin: 0 auto;
+}
+
+/*header*/
 header {
     background-color: #CA3F36;
     color: #ffffff;
@@ -18,13 +24,6 @@ header {
 	justify-content: space-between;
     padding: 0.3rem;
 }
-
-header, main, footer {
-    margin: 0 auto;
-}
-
-/*hearder*/
-
 .banner {
     text-align: center;
     border-radius: 10px;
