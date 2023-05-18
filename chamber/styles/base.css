@@ -296,7 +296,9 @@ main p {
 .article img {
    margin-left: auto;
    margin-right: auto;
+   padding-bottom: 1em;
 }
+
 /*footer*/
 
 footer {
