@@ -53,7 +53,6 @@
         'event hero hero article'
         'weather hero hero article'
         'do news-release news-release article';
-        margin-bottom: 0.3rem;
     }
     .do {
         grid-area: do;
@@ -95,6 +94,7 @@
         grid-area: spotlight-3;
         padding-left: 0.5rem;
         border: 2px solid #E8D152;
+        box-shadow: 0 0 0.5em #8f1108;
     }
     .hero-img-g {
         display: block;
@@ -111,22 +111,28 @@
         margin: auto;
         font-size: 2rem;
     }
-    .event, .article, .hero {
-        margin-top: 1rem;
-    }
     .home-title {
         margin-top: 1rem;
         margin-right: auto;
         margin-left: auto;
     }
+    .article {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .event, .weather {
+        margin-bottom: 0.5rem;
+    }
+   
     .spotlight-3 {
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.5rem;
     }
     .spotlight-2 {
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
     .spotlight-1 {
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
     }
     main h2 {
         font-size: 1.6rem;
