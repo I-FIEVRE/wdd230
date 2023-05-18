@@ -73,20 +73,17 @@
         grid-area: spotlight-2;
     }
     .home-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
      }
+    
     .join {
-        padding: 25px 35px;
-        font-size: 1.6rem;
-    }
-    .hero {
-        max-height: 500px;
+        padding: 15px 30px;
+        font-size: 1.4rem;
     }
     .join-1 {
         margin: 1rem;
-    }
-    main h1 {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
     main h2 {
         font-size: 1.4rem;

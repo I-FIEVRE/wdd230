@@ -184,14 +184,14 @@ nav ul li a:hover {
 .hero{
 	display: grid;
 	grid-template-columns: 1fr 4fr 1fr;	
-    grid-template-rows: 1fr 3fr 1fr ;
+    grid-template-rows: 1fr 3fr 1fr 0.5fr;
 	text-align: center;
     border: 2px solid #E8D152;
     margin: 0.5rem;
 }
 #hero-box {
     grid-column: 1/4;
-    grid-row: 1/4;
+    grid-row: 1/5;
     z-index: -1;
 }
 .home-title {
@@ -211,7 +211,7 @@ nav ul li a:hover {
    font-weight: 600;
    border-radius: 10px;
    margin: 0;
-   padding: 15px 25px;
+   padding: 15px 20px;
 }
 .join:hover {
     background-color: #CA3F36;
@@ -239,7 +239,6 @@ main article {
 	border: 2px solid #E8D152;
 }
 main article h3{
-	color: #ffffff;
 	padding: 1rem;
 }
 main article p {
