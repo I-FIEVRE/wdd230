@@ -107,7 +107,7 @@ margin: 1rem auto;
     letter-spacing: 0.2em;
     padding: 0.2rem;
     line-height: 0;
-   /* text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;*/
+   text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -140,6 +140,7 @@ nav ul li a {
 .active {
     font-weight: bold;
     color: #fff;
+    text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
 }
 nav ul li a:hover {
 	font-weight: bold;
@@ -230,6 +231,9 @@ nav ul li a:hover {
 }
 
 /*general main */
+.logo-header h2 {
+    text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
+}
 .event a {
     text-decoration: none;
     color: #427198;
@@ -323,6 +327,9 @@ footer div p a {
 .address {
     font-style: italic;
 }
+.address h2 {
+    text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
+}
 footer div p a:hover{
     background: linear-gradient(90deg, transparent, #427198, transparent) bottom /
 	var(--d, 0) 3px no-repeat;
@@ -335,6 +342,7 @@ hr.foot {
   }
 p.medium {display: none;}  
 
+/*banner animation*/
 .banner {
     animation-duration: 3s;
     animation-name: slidein;
