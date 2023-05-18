@@ -60,7 +60,6 @@
     .hero {
         grid-area: hero;
         max-height: 900px;
-        width: auto;
     }
     .button-box{
         grid-column: 2/3;
