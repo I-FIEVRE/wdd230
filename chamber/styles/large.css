@@ -93,8 +93,7 @@
         display: grid;
         grid-area: spotlight-3;
         padding-left: 0.5rem;
-        border: 2px solid #E8D152;
-        box-shadow: 0 0 0.5em #8f1108;
+        border: 5px ridge #E8D152;
     }
     .hero-img-g {
         display: block;
