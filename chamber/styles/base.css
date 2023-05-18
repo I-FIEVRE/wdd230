@@ -57,7 +57,7 @@ header {
 }
 .social {
     display: flex;
-    flex:1 1 40px
+    flex:1 1 40px;
 }
 .rivoli-nav {
     display: flex;
@@ -266,6 +266,9 @@ main h2 {
     font-size: 1.2rem;
     color: #427198;
     line-height: 1rem;
+}
+.article h2 {
+    color: #ffffff;
 }
 main h3 {
     font-size: 1rem; 
