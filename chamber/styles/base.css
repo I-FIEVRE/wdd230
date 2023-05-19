@@ -261,10 +261,6 @@ main article {
 main article h3{
 	padding: 1rem;
 }
-main article p {
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
 main h1 {
     margin-top: 2rem;
     font-size: 1.3rem;
@@ -348,10 +344,8 @@ footer div p a {
 .address h2 {
     text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
 }
-footer div p a:hover{
-    background: linear-gradient(90deg, transparent, #427198, transparent) bottom /
-	var(--d, 0) 3px no-repeat;
-	--d: 75%;
+.location a:hover{
+    color: #427198;
 	font-weight: bold;
 }
 hr.foot {

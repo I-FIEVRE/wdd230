@@ -90,7 +90,7 @@
     .spotlight-3 {
         display: grid;
         grid-area: spotlight-3;
-        padding-left: 0.5rem;
+       /* padding-left: 0.5rem;*/
         border: 5px outset #E8D152;
     }
     .hero-img-g {
@@ -130,6 +130,10 @@
     }
     main p {
         font-size: 1.1rem;
+    }
+    .mail {
+        font-size: 0.9rem;
+        line-height: 1.4;
     }
    
     /*footer*/
