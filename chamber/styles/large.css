@@ -48,7 +48,7 @@
     .grid-home {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr 1.4fr 1fr;
+        grid-template-rows: 1fr 1.2fr 1fr;
         grid-template-areas:
         'event hero hero article'
         'weather hero hero article'
@@ -106,20 +106,17 @@
         margin-top: 2rem;
         margin-right: auto;
         margin-left: auto;
+        font-size: 2rem;
     }
     .join-1 {
         padding-left: 20px;
         padding-right: 20px;
         margin: auto;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
-   /* .article {
-        row-gap: 1rem;
-    }*/
     .event, .weather {
         margin-bottom: 0.5rem;
     }
-   
     main h2 {
         font-size: 1.6rem;
     }   
