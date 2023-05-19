@@ -309,9 +309,8 @@ main p {
     background-color: #CA3F36;
 }
 .weather img {
-    width: 100%;
-    height:100%;
-    object-fit: contain;
+    max-width: 100%;
+    height:auto;
 }
 .hero {
     max-height: 350px;
@@ -321,11 +320,10 @@ main p {
    margin-right: auto;
    padding-bottom: 1em;
 }
-.article p a:nth-child(1) { line-height: 2;}
-.article p a { 
-    color: blue;
-    font-weight: 600;
+.article p a {
+    color: #ffffff;
 }
+.article p a:hover {color: #E8D152;}
 /*footer*/
 
 footer {
