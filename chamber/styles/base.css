@@ -321,7 +321,11 @@ main p {
    margin-right: auto;
    padding-bottom: 1em;
 }
-
+.article p a:nth-child(1) { line-height: 2;}
+.article p a { 
+    color: blue;
+    font-weight: 600;
+}
 /*footer*/
 
 footer {
