@@ -112,7 +112,9 @@
         padding-left: 20px;
         padding-right: 20px;
         margin: auto;
+        margin-bottom: 4rem;
         font-size: 1.6rem;
+        
     }
     .event, .weather {
         margin-bottom: 0.5rem;
