@@ -309,8 +309,15 @@ main p {
     background-color: #CA3F36;
 }
 .weather img {
-    max-width: 100%;
+    max-width: 80%;
     height:auto;
+    justify-self: center;
+}
+.weather p {
+    padding-bottom: 0;
+}
+.wind {
+    margin: 1rem;
 }
 .hero {
     max-height: 350px;
