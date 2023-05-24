@@ -17,6 +17,7 @@ header, main, footer {
 }
 
 /*header*/
+
 header {
     background-color: #CA3F36;
     color: #ffffff;
@@ -32,7 +33,6 @@ header {
     font-size: 0.6rem;
     margin-bottom: 0.5rem;
 } 
-
 .logo-header {
     display: flex;
     align-items: center;
@@ -145,7 +145,6 @@ nav ul li a {
 nav ul li a:hover {
 	font-weight: bold;
 }
-
 .logo {
 	max-width: 70px;
 	border-radius: 15px;
@@ -161,8 +160,6 @@ nav ul li a:hover {
 .grid-home {
 	display: grid;
 	grid-template-columns: 1fr;	
-    /*align-items: center;
-    justify-content: center;*/
 	text-align: center;
     margin: 1rem;
     
@@ -171,9 +168,6 @@ nav ul li a:hover {
 	display: grid;
 	grid-template-columns: 1fr;	
     border: 7px ridge #E8D152;
-    /*border: 4px solid #E8D152;
-    box-shadow: 0 0 0.5em #8f1108;*/
-   /* box-shadow: 0 0 1em #CA3F36, 0 0 2em #da5f56;*/
     margin: 0.5rem;
 }
 .do {display: none;}
@@ -186,6 +180,7 @@ nav ul li a:hover {
 .spotlight-3 {display: none;}
 
 /*hero*/
+
 .hero{
 	display: grid;
 	grid-template-columns: 1fr 4fr 1fr;	
@@ -235,7 +230,9 @@ main picture.hero-img img {
     height:100%;
     object-fit: cover;
 }
+
 /*general main */
+
 .logo-header h2 {
     text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
 }
@@ -281,8 +278,7 @@ main h2 {
 }
 main h3 {
     font-size: 1rem; 
-    line-height: 1rem; 
-    
+    line-height: 1rem;    
 }
 main p {
     font-size: 0.9rem;
@@ -331,6 +327,7 @@ main p {
     color: #ffffff;
 }
 .article p a:hover {color: #E8D152;}
+
 /*footer*/
 
 footer {
@@ -366,6 +363,7 @@ hr.foot {
 p.medium {display: none;}  
 
 /*banner animation*/
+
 .banner {
     animation-duration: 3s;
     animation-name: slidein;

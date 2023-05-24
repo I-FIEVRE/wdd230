@@ -4,6 +4,7 @@
     }
 
     /*header*/
+    
     nav button { display: none; }
     .logo-header {
         flex: 2 1 100px;
@@ -45,6 +46,7 @@
     .date {padding: 0.4rem;}
 
     /*main*/
+
     .grid-home {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -90,7 +92,6 @@
     .spotlight-3 {
         display: grid;
         grid-area: spotlight-3;
-       /* padding-left: 0.5rem;*/
         border: 5px outset #E8D152;
     }
    /* .hero-img-g {
@@ -137,6 +138,7 @@
     }
    
     /*footer*/
+
     p.lf {
     font-size: 1rem;
     }
