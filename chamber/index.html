@@ -52,8 +52,14 @@
     <main class="grid-home">
         <div class="hero">
             <div id="hero-box">
-                <img class="hero-img-g" src="images/rivoli-2-400.jpg" alt="view of Rivoli"> 
-                <img class="hero-img-b" src="images/rivoli-800.jpg" alt="wide view of Rivoli">
+                <picture class="hero-img">
+                    <source media="(max-width: 560px)"  srcset="images/wdd230-org-small.jpg">          
+                    <source media="(max-width: 1028px)" srcset="images/wdd230-org-medium.jpg">          
+                    <source media="(max-width: 1800px)" srcset="images/wdd230-org-large.jpg">
+                    <img src="images/wdd230-org.jpg" alt="hero">            
+                </picture>
+            <!-- <img class="hero-img-g" src="images/rivoli-2-400.jpg" alt="view of Rivoli"> 
+                <img class="hero-img-b" src="images/rivoli-800.jpg" alt="wide view of Rivoli"> -->
             </div>
             <h1 class="home-title">Welcome to Rivoli</h1>
             <div class="button-box">
