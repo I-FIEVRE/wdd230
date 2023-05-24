@@ -1,5 +1,6 @@
 const temperature = parseFloat(document.querySelector("#temperature").textContent);
 const windSpeed = parseFloat(document.querySelector("#wind-speed").textContent);
+
 const windChill = document.querySelector("#wind-chill");
 
 const temp = temperature * 9 / 5 + 32;
