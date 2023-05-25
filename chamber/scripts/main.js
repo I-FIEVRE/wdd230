@@ -25,4 +25,10 @@ if (currentDate.getDay() == 1 || currentDate.getDay() == 2) {
     divi.appendChild(para);
     para.textContent = "🤝🏼 Come join us for the chamber meet & greet Wednesday at 7:00 p.m. 🤝🏼";
 	divi.style.display = "block";
+	const btn = document.createElement('button');
+	para.appendChild(btn);
+	btn.textContent = 'X';
+	btn.addEventListener('click', () => {
+		divi.style.display = "none";
+	})
 } else {divi.style.display = "none";}
