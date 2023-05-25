@@ -1,5 +1,5 @@
-const temperature = parseFloat(document.querySelector("#temperature").textContent);
-const windSpeed = parseFloat(document.querySelector("#wind-speed").textContent);
+const temperature = document.querySelector("#temperature").textContent;
+const windSpeed = document.querySelector("#wind-speed").textContent;
 
 const windChill = document.querySelector("#wind-chill");
 
