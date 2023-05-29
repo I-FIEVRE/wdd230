@@ -5,34 +5,23 @@
 
     /*header*/
 
-    .banner {
-        font-size: 1rem;
-    }
+    .banner { font-size: 1rem;}
     nav ul {
         line-height: 1.5em;
         font-size: 1.3rem;
     }
-    .logo {
-        max-width: 120px;
-      }
-    .logo:hover {
-        max-width: 120px;
-    }
+    .logo { max-width: 120px;}
+    .logo:hover { max-width: 120px;}
     .title h2 {
         font-size: 3rem;
         letter-spacing: 0.2rem;
         line-height: 0.8em;
         margin: 0.1em 0;
     }
-    .m {
-    font-size: 1rem;
-    }
-    .social img {
-        max-width: 40px;
-    }
-
+    .m { font-size: 1rem;}
+    .social img { max-width: 40px;}
+    
     /*main*/
-
     .do {
         display: grid;
         grid-area: do;
@@ -55,9 +44,7 @@
         grid-area: hero;
         margin-top: 1rem;
     }
-    .news-release {
-        grid-area: news-release;
-    }
+    .news-release { grid-area: news-release;}
     .event {
         grid-area: event;
         margin-bottom: 1rem;
@@ -73,12 +60,8 @@
         grid-template-areas: 'spotlight-1 spotlight-1 spotlight-1 spotlight-2 spotlight-2 spotlight-2';
         padding: 1rem;
     }
-    .spotlight-1 {
-        grid-area: spotlight-1;
-    }
-    .spotlight-2 {
-        grid-area: spotlight-2;
-    }
+    .spotlight-1 { grid-area: spotlight-1;}
+    .spotlight-2 { grid-area: spotlight-2;}
     .home-title {
         font-size: 1.8rem;
         margin-top: 0.5rem;
@@ -98,16 +81,12 @@
         margin-bottom: 1rem;
         font-size: 1.4rem;
     }
-    main h2 {
-        font-size: 1.4rem;
-    }   
-    main h3 {
-        font-size: 1.1rem; 
-    }
-    main p {
-        font-size: 1rem;
-    }
-
+    main h2 { font-size: 1.4rem;}   
+    main h3 { font-size: 1.1rem; }
+    main p { font-size: 1rem;}
+    /*discover*/
+    .background { max-width: 80vw;}
+   .background1 { max-width: 60vw;}
    /*footer*/
    
     p.base {display: none;}
@@ -147,7 +126,8 @@
         flex: 0 1 300px;
         font-size: 1.2rem;
     }
-    footer div p {
-        margin-top: 0;
-    }
+    footer div p { margin-top: 0;}
 }    
+@media only screen and (max-width: 750px) {
+    .turin { max-width: 80%;}    
+}
