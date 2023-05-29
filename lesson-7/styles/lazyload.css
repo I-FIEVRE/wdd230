@@ -1,28 +1,12 @@
 body {
-    background: radial-gradient(4rem,
-    rgba(255,255,255,0) 80%, 
-    #427198 80%, #427198 99%, 
-    rgba(255,255,255, 0) 
-    ) 0 0,
-    radial-gradient(4rem,
-    rgba(255,255,255,0) 80%, 
-    #427198 80%, #427198 99%,  
-    rgba(255,255,255, 0) 
-    ) 4em 4em,
-    radial-gradient(4.7rem,
-    rgba(255,255,255,0) 50%, 
-    #E8D152 50%,
-    #E8D152 75%, #E8D152 99%, 
-    rgba(255,255,255, 0) 
-    ) 4em 4em,
-    radial-gradient(4.7rem,
-    rgba(255,255,255,0) 50%, 
-    #E8D152 50%,
-    #F5FCD0 75%, #E8D152 99%, 
-    rgba(255,255,255, 0) 
-    ) 0 0;
-  background-size: 8rem 8rem;
-  background-color: #F5FCD0;
+    background:  radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 main {
     display: block;
