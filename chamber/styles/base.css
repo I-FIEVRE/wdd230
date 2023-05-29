@@ -185,8 +185,8 @@ nav ul li a:hover { font-weight: bold;}
     grid-row: 3/4;
 }
 .join{
-   background-color: transparent;
-   color: #427198;
+   background-color: #427198;
+   color: #ffffff;
    border: 5px outset #E8D152;
    text-decoration: none;
    font-size: 0.9rem;
@@ -195,10 +195,7 @@ nav ul li a:hover { font-weight: bold;}
    margin: 0;
    padding: 10px;
 }
-.join:hover {
-    background-color: #CA3F36;
-    color: #ffffff;
-}
+.join:hover { background-color: #CA3F36;  }
 main picture.hero-img img {
     width: 100%;
     height:100%;
