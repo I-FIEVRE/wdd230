@@ -29,7 +29,11 @@ const diffTime = today - lastDayVisit;
 const diffDays = diffTime / (1000 * 60 * 60 * 24);
 
 if (diffTime !== today) {
-	daysDisplay.textContent = `It's been ` + diffDays.toFixed(0) + ` day(s) since your last visit.`;
+	if (diffDays.toFixed(0) == 0 || diffDays.toFixed(0) == 1 ) {
+		daysDisplay.textContent = `It's been ` + diffDays.toFixed(0) + ` day since your last visit.`;
+	} else {
+		daysDisplay.textContent = `It's been ` + diffDays.toFixed(0) + ` days since your last visit.`;
+	}
 } else {
 	daysDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
 }
