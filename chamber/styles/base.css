@@ -343,13 +343,13 @@ p.medium {display: none;}
 
 .discover { text-align: center;}
 figure img { 
-    max-width: 80%;
+    max-width: 90%;
     border-radius: 10px;
     border: 5px outset #E8D152;
     transition: transform .5s;
 }
 .background {
-    max-width: 100vw;
+    max-width: 85vw;
     margin: 2rem auto;
     border: 7px outset #E8D152;
     border-radius: 10px;
@@ -359,8 +359,8 @@ figure img {
     text-align: center;
 }
 .background1 {
-    max-width: 80vw;
-    margin: 2rem auto;
+    max-width: 70vw;
+    margin: 1rem auto;
     border: 7px outset #E8D152;
     border-radius: 10px;
     padding-top: 1.5rem;

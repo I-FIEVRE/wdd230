@@ -85,7 +85,10 @@
     main p { font-size: 1rem;}
     /*discover*/
     .background { max-width: 80vw;}
-    .background1 { max-width: 60vw;}
+    .background1 { 
+        max-width: 60vw;
+        margin: 2rem auto;
+    }
     .discover h1 { font-size: 1.8rem;}
     figure img:hover { 
         opacity: .6;
