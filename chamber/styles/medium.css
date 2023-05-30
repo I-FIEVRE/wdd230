@@ -22,13 +22,7 @@
     .social img { max-width: 40px;}
     
     /*main*/
-    .do {
-        display: grid;
-        grid-area: do;
-        padding-left: 0.5rem;
-        border: 7px ridge #E8D152;
-        margin: 0.5rem;
-    }
+   
     .grid-home {
         display: grid;
         row-gap: 0.3rem;
@@ -44,7 +38,12 @@
         grid-area: hero;
         margin-top: 1rem;
     }
-    .news-release { grid-area: news-release;}
+    .news-release { grid-area: news-release;} 
+    .do {
+        display: grid;
+        grid-area: do;
+        padding-left: 0.5rem;
+    }
     .event {
         grid-area: event;
         margin-bottom: 1rem;
@@ -86,7 +85,8 @@
     main p { font-size: 1rem;}
     /*discover*/
     .background { max-width: 80vw;}
-   .background1 { max-width: 60vw;}
+    .background1 { max-width: 60vw;}
+    .discover h1 { font-size: 1.8rem;}
    /*footer*/
    
     p.base {display: none;}
