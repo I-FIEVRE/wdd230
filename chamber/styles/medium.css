@@ -87,6 +87,12 @@
     .background { max-width: 80vw;}
     .background1 { max-width: 60vw;}
     .discover h1 { font-size: 1.8rem;}
+    figure img:hover { 
+        opacity: .6;
+        transform: scale(1.1);
+        box-shadow: 0 0 1em black, 0 0 2em #696969;
+    }
+    figcaption {margin-top: 0.4rem;}
    /*footer*/
    
     p.base {display: none;}
