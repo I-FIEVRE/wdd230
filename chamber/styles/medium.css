@@ -90,7 +90,7 @@
     figure img:hover { 
         opacity: .6;
         transform: scale(1.1);
-        box-shadow: 0 0 1em black, 0 0 2em #696969;
+        box-shadow: 0 0 1em black, 0 0 2em #E8D152;
     }
     figcaption {margin-top: 0.4rem;}
    /*footer*/
