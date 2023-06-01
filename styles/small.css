@@ -49,15 +49,17 @@ main nav ul {
     font-size: 0.8rem;
 }
 main nav ul li ul li {
-    list-style: square;
+    list-style-type: "\2666";
     list-style-position: outside;
     font-size: 0.7rem;
 }
 main nav a {
-    color: #696969;
+    color: rgba(61, 21, 142, 0.75);
+    text-decoration: none;
 }
 main nav a:hover {
-    color: rgba(61, 21, 142, 0.75);
+    
+    color: #696969;
 }
 .medium {
     display: none;
