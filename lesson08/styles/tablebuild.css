@@ -25,21 +25,20 @@ th:nth-child(1) {
 	background-color: var(--back);
 	color: var(--forelight);
 }
-
 th, td {
 	padding: 7px 15px;
 	border: 1px solid var(--borderlight);
 }
-
 th {
 	background-color: var(--back2);
 	font-size: larger;
 }
-
 td {
 	text-align: center;
 }
-
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
+}
+tbody tr:nth-child(2) td:nth-child(2), tbody tr:nth-child(3) td:nth-child(2), tbody tr:nth-child(3) td:nth-child(3) {
+	color: red;
 }
