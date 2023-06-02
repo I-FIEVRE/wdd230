@@ -49,7 +49,7 @@ main nav ul {
     font-size: 0.8rem;
 }
 main nav ul li ul li {
-    list-style-type: "\2666";
+    list-style: circle;
     list-style-position: outside;
     font-size: 0.7rem;
 }
