@@ -340,13 +340,11 @@ p.medium {display: none;}
     }
   }
 /*discover*/
-
 .discover { text-align: center;}
 figure img { 
     max-width: 90%;
     border-radius: 10px;
     border: 5px outset #E8D152;
-    transition: transform .5s;
 }
 .background {
     max-width: 85vw;
@@ -367,8 +365,6 @@ figure img {
     padding-bottom: 1.5rem;
     box-shadow: 0 0 1em black, 0 0 2em #696969;
 }
-
-
 @media only screen and (max-width: 25em) {
     .banner {
         font-size: 0.6rem;

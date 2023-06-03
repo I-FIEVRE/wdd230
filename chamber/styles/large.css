@@ -1,6 +1,5 @@
 @media only screen and (min-width: 64em) {
     header, nav, main, section, article, footer { max-width: 1800px;}
-
     /*header*/
     nav button { display: none; }
     .logo-header { flex: 2 1 100px;}
@@ -35,9 +34,7 @@
 	    --d: 75%;
     }
     .date {padding: 0.4rem;}
-
     /*main*/
-
     .grid-home {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -113,6 +110,6 @@
     }  
       /*discover*/
     .discover h1 { font-size: 2rem;}
-    .background { max-width: 60vw;}
-    .background1 { max-width: 40vw;}
+    .background { max-width: 70vw;}
+    .background1 { max-width: 50vw;}
 }   

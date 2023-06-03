@@ -90,6 +90,10 @@
         margin: 2rem auto;
     }
     .discover h1 { font-size: 1.8rem;}
+    figure img { 
+        max-width: 100%;
+        transition: transform .5s;
+    }
     figure img:hover { 
         opacity: .6;
         transform: scale(1.1);
