@@ -365,6 +365,11 @@ figure img {
     padding-bottom: 1.5rem;
     box-shadow: 0 0 1em black, 0 0 2em #696969;
 }
+/*thank you*/
+.thy h2, .thy h3, .thy p {
+    text-align: center;
+    margin: 2rem auto;
+}
 @media only screen and (max-width: 25em) {
     .banner {
         font-size: 0.6rem;
