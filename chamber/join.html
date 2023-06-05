@@ -48,9 +48,29 @@
             <p><span id="currentdate"></span></p>
         </div>
     </header>
-    <main class="grid-home">
+    <main class="joinP">
         <div>
-
+            <h1>Rivoli Chamber of Commerce Application Form</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Choose Membership</legend>
+                    <label class="member"><input type="radio" name="membership" value="np"> NON PROFIT &#124; Free</label>
+                    <label class="member"><input type="radio" name="membership" value="bronze"> BRONZE &#124; 50&#8364;</label>
+                    <label class="member"><input type="radio" name="membership" value="silver"> SILVER &#124; 200&#8364;</label>
+                    <label class="member"><input type="radio" name="membership" value="gold"> GOLD &#124; 500&#8364;</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="info">First Name <input type="text" name="fname" required></label>
+                    <label class="info">Last Name <input type="text" name="lname" required></label>
+                    <label class="info">Business Position <input type="text" name="position" pattern="[A-Za-z\-\s].{7,}" title="only accepts alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
+                    <label class="info">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="info">Phone <input type="tel" name="phone" ></label>
+                    <label class="info">Business Name <input type="text" name="fname" required></label>
+                    <label class="info">Business Description <textarea name="description"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Join the Chamber" class="subBtn">
+            </form>
         </div>
     </main>
     <footer>

@@ -112,4 +112,8 @@
     .discover h1 { font-size: 2rem;}
     .background { max-width: 70vw;}
     .background1 { max-width: 50vw;}
+    /*join*/
+    .joinP form {
+        margin: 2rem 15rem;
+    } 
 }   
