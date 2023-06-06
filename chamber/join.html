@@ -16,13 +16,14 @@
 </head>
 <body>  
     <header class="dir">
+        <div class="banner"></div>
         <nav class="rivoli-nav">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul class="try" id="primaryNav">
               <li><a href="index.html">Home</a></li>
               <li><a href="discover.html">Discover</a></li>
               <li><a href="directory.html">Directory</a></li>
-              <li><a class="active" href=join.html">Join</a></li>
+              <li><a class="active" href="join.html">Join</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="logo-header">
@@ -52,25 +53,125 @@
         <div>
             <h1>Rivoli Chamber of Commerce Application Form</h1>
             <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Choose Membership</legend>
-                    <label class="member"><input type="radio" name="membership" value="np"> NON PROFIT &#124; Free</label>
-                    <label class="member"><input type="radio" name="membership" value="bronze"> BRONZE &#124; 50&#8364;</label>
-                    <label class="member"><input type="radio" name="membership" value="silver"> SILVER &#124; 200&#8364;</label>
-                    <label class="member"><input type="radio" name="membership" value="gold"> GOLD &#124; 500&#8364;</label>
-                </fieldset>
-                <fieldset>
-                    <legend>Applicant Information</legend>
-                    <label class="info">First Name <input type="text" name="fname" required></label>
-                    <label class="info">Last Name <input type="text" name="lname" required></label>
-                    <label class="info">Business Position <input type="text" name="position" pattern="[A-Za-z\-\s]{7,}" title="only accepts alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
-                    <label class="info">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="info">Phone <input type="tel" name="phone" ></label>
-                    <label class="info">Business Name <input type="text" name="fname" required></label>
-                    <label class="info">Business Description <textarea name="description"></textarea></label>
-                </fieldset>
+                <div class="join-grid">
+                    <fieldset class="f1">
+                        <legend>Applicant Information</legend>
+                        <label class="info">First Name* <input type="text" name="fname" required></label>
+                        <label class="info">Last Name* <input type="text" name="lname" required></label>
+                        <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="info">Phone <input type="tel" name="phone" ></label>
+                    </fieldset>
+                    <fieldset class="f2">
+                        <legend>Business Information</legend>
+                        <label class="info">Business Name* <input type="text" name="fname" required></label>
+                        <label class="info">Business Position <input type="text" name="position" pattern="[A-Za-z\-\s]{7,}" title="only accepts alpha characters, hyphens, and spaces with a minimum of seven characters"></label>
+                        <label class="info">Business Description <textarea name="description"></textarea></label>
+                    </fieldset>
+                    <fieldset class="f3">
+                        <legend>Choose Membership</legend>
+                        <label class="member"><input type="radio" name="membership" value="np"> N P &#40;Free for<i> Non Profit organizations&#41;</i></label>
+                        <label class="member"><input type="radio" name="membership" value="bronze"> BRONZE &#40;50&#8364;&#47;year&#41;</label>
+                        <label class="member"><input type="radio" name="membership" value="silver"> SILVER &#40;100&#8364;&#47;year&#41;</label>
+                        <label class="member"><input type="radio" name="membership" value="gold"> GOLD &#40;500&#8364;&#47;year&#41;</label>
+                    </fieldset>
+                    <div class="tab">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="5" scope="colgroup">Membership Level Benefits</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">NP&#127873;</th>
+                                    <th scope="col">Bronze&#129353;</th>
+                                    <th scope="col">Silver&#129352;</th>
+                                    <th scope="col">Gold&#129351;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Price</td>
+                                    <td>FREE</td>
+                                    <td>50&#8364;&#47;yr</td>
+                                    <td>100&#8364;&#47;yr</td>
+                                    <td>500&#8364;&#47;yr</td>
+                                </tr>
+                                <tr>
+                                    <td>Monthly Newsletters</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                </tr>
+                                <tr>
+                                    <td>Events Invitation</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                </tr>
+                                <tr>
+                                    <td>Business Counseling</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                </tr>
+                                <tr>
+                                    <td>Monthly Worshops</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                </tr>
+                                <tr>
+                                    <td>Business Ad on our Site</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                </tr>
+                                <tr>
+                                    <td>Sponsors Opportunities</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10004;</td>
+                                    <td>&#10004;</td>
+                                </tr>
+                                <tr>
+                                    <td>Discount Event</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>10&#37;</td>
+                                    <td>20&#37;</td>
+                                </tr> 
+                                <tr>
+                                    <td>Exclusive Networking</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10004;</td>
+                                </tr>  
+                                <tr>
+                                    <td>Exclusive Trainings</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10004;</td>
+                                </tr>  
+                                <tr>
+                                    <td>Exclusive Virtual Events</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10006;</td>
+                                    <td>&#10004;</td>
+                                </tr>  
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 <input type="submit" value="Join the Chamber" class="subBtn">
-            </form>
+            </form>    
         </div>
     </main>
     <footer>
@@ -92,8 +193,7 @@
         <p class="base">&#169; <span id="currentyear"></span> Rivoli Chamber<br>Isabelle Fi&#232;vre <br> WDD 230 Project <br> Last Update on <span id="lastUpdated"></span></p>
         <p class="medium">&#169; <span id="currentyear-1"></span> Rivoli Chamber &#124; Isabelle Fi&#232;vre &#124; WDD 230 Project &#124; Last Update on <span id="lastUpdated-1"></span></p> 
     </footer>
-    <script src="scripts/main2.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/main.js"></script>
     <script src="scripts/header.js"></script>
 </body>
 </html>    
