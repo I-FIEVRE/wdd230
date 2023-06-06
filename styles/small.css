@@ -1,19 +1,18 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');*/
 body {
     font-family: 'Almarai', arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.8;
 }
 
 body {
     max-width: 960px;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
+    padding: 2em;
   }
 header, nav, main, footer {
-    margin: 2rem auto;
-    max-width:250px;
+    margin: 0.5rem auto;
+    max-width:350px;
 }
 header, footer {
     background-color: rgba(61, 21, 142, 0.75);
@@ -24,7 +23,16 @@ header, footer {
 }
 header {
     display: block; 
-    padding: 1.5rem; 
+    padding: 1rem; 
+}
+header a {
+    color: #fbfbfb;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding: 0.5rem;
+    border: 2px outset #fbfbfb;
+    border-radius: 10px;
 }
 header img {
     border-radius: 50%;
@@ -43,6 +51,8 @@ header a:hover {
 main h2 {
     text-shadow: 2px 2px 4px #696969;
     font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem 0;
 }
 main nav ul {
     font-weight: bold; 
