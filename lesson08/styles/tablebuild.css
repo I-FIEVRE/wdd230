@@ -35,6 +35,7 @@ th {
 }
 td {
 	text-align: center;
+	font-weight: bold;
 }
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
@@ -42,3 +43,4 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(2) td:nth-child(2), tbody tr:nth-child(3) td:nth-child(2), tbody tr:nth-child(3) td:nth-child(3) {
 	color: red;
 }
+
