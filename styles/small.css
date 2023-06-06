@@ -12,7 +12,7 @@ body {
   }
 header, nav, main, footer {
     margin: 0.5rem auto;
-    max-width:350px;
+    max-width: 350px;
 }
 header, footer {
     background-color: rgba(61, 21, 142, 0.75);
