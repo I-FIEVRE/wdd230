@@ -51,3 +51,7 @@ if (diffTime !== today) {
 }
 localStorage.setItem("lastDayVisit-ls", today);
 
+function getDateTime() {
+	document.querySelector('#dateTime').value = new Date().toLocaleDateString() + ", " + new Date().toLocaleTimeString();
+}
+getDateTime();
