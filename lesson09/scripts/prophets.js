@@ -15,6 +15,7 @@ const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
       
       let card = document.createElement('section');
+      let divi = document.createElement('div');
       let h2 = document.createElement('h2');
       let birthDate = document.createElement('p');
       let birthPlace = document.createElement('p');
@@ -31,8 +32,9 @@ const displayProphets = (prophets) => {
       //portrait.setAttribute('height', '396');
   
       card.appendChild(h2);
-      card.appendChild(birthPlace);
-      card.appendChild(birthDate);
+      card.appendChild(divi);
+      divi.appendChild(birthPlace);
+      divi.appendChild(birthDate);
       card.appendChild(portrait);
       cards.appendChild(card);
     })

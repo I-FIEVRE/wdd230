@@ -25,6 +25,10 @@ body {
     border-top-right-radius: 10px;
     margin-bottom: 2rem;
 }
+.cards section div {
+    border-top: 1px solid rgb(43, 122, 226);
+    border-bottom: 1px solid rgb(43, 122, 226);
+}
 .cards img {
     display: block;
     margin-left: auto;
@@ -32,7 +36,12 @@ body {
     max-width: 100%;
     height: auto;
 }
-footer{margin: 2rem;}
+footer p {
+    margin: 2rem 0;
+    font-size: 0.9rem;
+    padding: 2rem 0 0 0;
+    border-top: 1px solid rgb(105, 116, 118);
+}
 @media only screen and (min-width: 23em) { 
     .medium {display: inline;}
     .small {display: none;}
@@ -50,10 +59,17 @@ footer{margin: 2rem;}
         border-bottom: 1px solid rgb(105, 116, 118);
         border-right: 1px solid rgb(105, 116, 118);
     }
+    .cards section div {
+        border: 2px outset rgb(43, 122, 226);
+        border-radius: 10px;
+    }
     .cards img {
         margin: 2rem auto;
         box-shadow: 10px 10px 5px rgb(72, 76, 77);
         max-width: 200px;
         height: auto;
+    }
+    footer p {
+        font-size: 1.3rem;
     }
 }
