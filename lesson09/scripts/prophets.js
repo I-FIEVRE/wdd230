@@ -9,8 +9,6 @@ async function getProphetData(url) {
   
   getProphetData(url);
 
-
-
 const displayProphets = (prophets) => {
    const cards = document.querySelector('div.cards');
   
@@ -18,23 +16,23 @@ const displayProphets = (prophets) => {
       
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
-      let portrait = document.createElement('img');
       let birthDate = document.createElement('p');
       let birthPlace = document.createElement('p');
+      let portrait = document.createElement('img');
 
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
-      birthDate.textcontent = `Date of Birth: ${prophet.birthdate}`;
-      birthPlace.textcontent = `Place of Birth: ${prophet.birthplace}`;
-
+      birthPlace.textContent = `Place of Birth: ${prophet.birthdate}`;
+      birthDate.textContent = `Place of Birth: ${prophet.birthplace}`;
+  
       portrait.setAttribute('src', prophet.imageurl);
       portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '340');
-      portrait.setAttribute('height', '440');
+      //portrait.setAttribute('width', '306');
+      //portrait.setAttribute('height', '396');
   
       card.appendChild(h2);
-      card.appendChild(birthDate);
       card.appendChild(birthPlace);
+      card.appendChild(birthDate);
       card.appendChild(portrait);
       cards.appendChild(card);
     })

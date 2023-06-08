@@ -1,4 +1,53 @@
+body {
+    color: rgb(5, 75, 165);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+}
 .cards {
     display:grid;
     grid-template-columns: 1fr;
 }
+.cards section {
+    padding-top: 0.5rem;
+    border: 2px solid rgb(43, 122, 226);
+    background-color: rgb(185, 203, 230);
+    margin-bottom: 2rem;
+}
+.cards img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 23em) { 
+    .cards img { 
+        margin: 2rem auto;
+    }
+    .cards section {
+        margin: 1rem auto;
+        padding: 0.5rem 2.5rem;
+        width:300px;
+    }
+}
+@media only screen and (min-width: 34.5em) { 
+   .cards {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+   }
+   .cards img {
+    max-width: 200px;
+    height: auto;
+}
+    .cards section {
+        margin: 2rem auto;
+        padding: 0.5rem 2.5rem;
+    }
+}
+@media only screen and (min-width: 62.5em) { 
+   
+ }
