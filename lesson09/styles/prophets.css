@@ -1,19 +1,28 @@
 body {
-    color: rgb(5, 75, 165);;
+    color: rgb(5, 75, 165);
+    background-color: rgba(43, 122, 226, 0.105);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1;
+    margin-top: 2rem;
     text-align: center;
     justify-content: center;
 }
+.small {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+.medium {display: none;}
 .cards {
     display:grid;
     grid-template-columns: 1fr;
 }
 .cards section {
     padding-top: 0.5rem;
-    border: 2px solid rgb(43, 122, 226);
+    border: 1px solid rgb(43, 122, 226);
     background-color: rgb(185, 203, 230);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     margin-bottom: 2rem;
 }
 .cards img {
@@ -23,31 +32,28 @@ body {
     max-width: 100%;
     height: auto;
 }
-
+footer{margin: 2rem;}
 @media only screen and (min-width: 23em) { 
-    .cards img { 
-        margin: 2rem auto;
-    }
-    .cards section {
-        margin: 1rem auto;
-        padding: 0.5rem 2.5rem;
-        width:300px;
-    }
-}
-@media only screen and (min-width: 34.5em) { 
-   .cards {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    .medium {display: inline;}
+    .small {display: none;}
+    .cards {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 1rem;
    }
-   .cards img {
-    max-width: 200px;
-    height: auto;
-}
     .cards section {
+        border-radius: 15px;
+        border: none;
+        width:280px;
         margin: 2rem auto;
         padding: 0.5rem 2.5rem;
+        box-shadow: 10px 10px 5px rgb(105, 116, 118);
+        border-bottom: 1px solid rgb(105, 116, 118);
+        border-right: 1px solid rgb(105, 116, 118);
+    }
+    .cards img {
+        margin: 2rem auto;
+        box-shadow: 10px 10px 5px rgb(72, 76, 77);
+        max-width: 200px;
+        height: auto;
     }
 }
-@media only screen and (min-width: 62.5em) { 
-   
- }
