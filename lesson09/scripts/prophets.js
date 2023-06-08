@@ -16,14 +16,18 @@ const displayProphets = (prophets) => {
       
       let card = document.createElement('section');
       let divi = document.createElement('div');
+      let sp1 = document.createElement('span');
+      let sp2 = document.createElement('span');
       let h2 = document.createElement('h2');
       let birthDate = document.createElement('p');
       let birthPlace = document.createElement('p');
       let portrait = document.createElement('img');
 
       h2.textContent = `${prophet.name} ${prophet.lastname}`;
-      birthPlace.textContent = `Place of Birth: ${prophet.birthdate}`;
-      birthDate.textContent = `Place of Birth: ${prophet.birthplace}`;
+      sp1.textContent = ` ${prophet.birthdate}`;
+      birthDate.textContent = `Date of Birth:`;
+      sp2.textContent = ` ${prophet.birthplace}`;
+      birthPlace.textContent = `Place of Birth:`;
   
       portrait.setAttribute('src', prophet.imageurl);
       portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
@@ -33,8 +37,10 @@ const displayProphets = (prophets) => {
   
       card.appendChild(h2);
       card.appendChild(divi);
-      divi.appendChild(birthPlace);
       divi.appendChild(birthDate);
+      birthDate.appendChild(sp1);
+      divi.appendChild(birthPlace);
+      birthPlace.appendChild(sp2);
       card.appendChild(portrait);
       cards.appendChild(card);
     })

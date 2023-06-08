@@ -29,6 +29,13 @@ body {
     border-top: 1px solid rgb(43, 122, 226);
     border-bottom: 1px solid rgb(43, 122, 226);
 }
+.cards section div p { 
+    color: rgb(4, 33, 71);
+    font-weight: bold;
+}
+.cards section div span {
+    color: rgb(5, 75, 165);
+}
 .cards img {
     display: block;
     margin-left: auto;
