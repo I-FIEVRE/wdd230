@@ -5,7 +5,7 @@
             "address": "Corso IV Novembre 57/b, 10098 RIVOLI",
             "phone": "011 958 8638",
             "website": "https://www.mymercato.it/punti-vendita/piemonte/mercato-rivoli",
-            "images": "images/mercato.jpg",
+            "image": "images/mercato.jpg",
             "membership": "gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "Corso IV Novembre 93, 10098 Rivoli TO",
             "phone": "011 959 7916",
             "website": "http://www.officinevica.com/",
-            "images": "images/officine-vica",
+            "image": "images/officine-vica.jpg",
             "membership": "gold"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Viale Colli 107/A, 10098 Rivoli TO",
             "phone": "011 950 3850",
             "website": "http://www.acquajoy.com//",
-            "images": "images/aquajoy.jpg",
+            "image": "images/aquajoy.jpg",
             "membership": "silver"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Corso Alcide de Gasperi 73, 10098 Rivoli",
             "phone": "011 956 1493",
             "website": "http://www.elbornrivoli.com/",
-            "images": "images/el-born.jpg",
+            "image": "images/el-born.jpg",
             "membership": "bronze"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Piazzale Mafalda di Savoia 2, 10098 Rivoli",
             "phone": "011 956 5222",
             "website": "https://www.castellodirivoli.org/",
-            "images": "images/castello-di-rivoli.jpg",
+            "image": "images/castello-di-rivoli.jpg",
             "membership": "np"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Via Ivrea 71B, 10098 Rivoli",
             "phone": "011 959 4349",
             "website": "https://sciabaristorante.it/",
-            "images": "images/sciaba.jpg",
+            "image": "images/sciaba.jpg",
             "membership": "bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "Via Chivasso 8, 10098 Rivoli",
             "phone": "375 616 2504",
             "website": "http://www.lamolesportsacademy.com/",
-            "images": "images/mole-sports.jpg",
+            "image": "images/mole-sports.jpg",
             "membership": "bronze"
         },
         {
@@ -61,7 +61,7 @@
             "address": "C.so Francia 175, 10098 Rivoli",
             "phone": "011 959 3838",
             "website": "https://www.conad.it/ricerca-negozi/conad-superstore-corso-francia-175-10098-rivoli--008691",
-            "images": "images/conad.jpg",
+            "image": "images/conad.jpg",
             "membership": "gold"
         },
         {
@@ -69,7 +69,7 @@
             "address": "Viale Partigiani D'Italia 98C, 10098 Rivoli",
             "phone": "328 642 5306",
             "website": "http://www.betweenristorante.it/",
-            "images": "images/between.jpg",
+            "image": "images/between.jpg",
             "membership": "bronze"
         }       
     ]
