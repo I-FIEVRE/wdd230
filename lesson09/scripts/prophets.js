@@ -104,19 +104,19 @@ function displayNonUtah(prophets) {
 })     
 }  
 
-let viewsButtons = document.querySelectorAll('.links ul li');
-let views = document.querySelectorAll('.view-div');
+let buttons = document.querySelectorAll('.buttons ul li');
+let views = document.querySelectorAll('.views div');
 
-viewsButtons.forEach((link) => {
+buttons.forEach((link) => {
   link.addEventListener('click', () => {
-      viewsButtons.forEach((item) => {
+      buttons.forEach((item) => {
           item.classList.remove('active');
       })
       link.classList.add('active');
-      let li_view = link.getAttribute('data-view');
+      let dataCard = link.getAttribute('data-card');
       views.forEach((view) => {
           view.style.display = 'none';
       }) 
-      document.querySelector('.' + li_view).style.display = 'grid';  
+      document.querySelector('.' + dataCard).style.display = 'grid';  
   })
 })

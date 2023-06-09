@@ -33,9 +33,6 @@ section div p {
     color: rgb(4, 33, 71);
     font-weight: bold;
 }
-section div span {
-    color: rgb(5, 75, 165);
-}
 img {
     display: block;
     margin-left: auto;
@@ -49,17 +46,17 @@ footer p {
     padding: 2rem 0 0 0;
     border-top: 1px solid rgb(105, 116, 118);
 }
-.links ul {
+.buttons ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
-.links ul  {
+.buttons ul  {
     padding-top: 1rem;
     margin-top: 2rem;
     border-top: 1px solid rgb(105, 116, 118);
 }
-.links ul li {
+.buttons ul li {
     border: 2px outset rgb(4, 33, 71);
     background-color: #ffffff;
     color: rgb(4, 33, 71);
@@ -70,8 +67,8 @@ footer p {
     padding: 0.5rem;
     margin-top: 1rem;
 }
-.links ul li:hover,
-.links ul li.active {
+.buttons ul li:hover,
+.buttons ul li.active {
     color: white;
     background-color:  rgb(4, 33, 71);
     border-radius: 5px;
@@ -109,7 +106,7 @@ footer p {
     footer p {
         font-size: 1.3rem;
     }
-    .links ul li {
+    .buttons ul li {
         font-size: large;
         margin-bottom: 0.5rem;
         padding: 0.5rem;
@@ -117,7 +114,7 @@ footer p {
     }
 }
 @media only screen and (min-width: 64em) { 
-    .links ul li {
+    .buttons ul li {
         font-size: 1.5rem;
         margin-top: 2rem;
     }
