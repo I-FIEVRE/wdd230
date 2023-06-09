@@ -375,8 +375,7 @@ figure img {
 /*join*/
 .joinP h1 {text-align: center;}
 .joinP  {
-    padding: 10px;
-    
+    padding: 10px;   
  }
 .joinP form fieldset {
     margin: 0.5rem auto;
@@ -426,11 +425,13 @@ figure img {
     width: 100%;
     padding: 10px;
  }
- .subBtn:hover { 
+.subBtn:hover { 
     background-color: #CA3F36;
     color: #ffffff;
 }
- .tab table {display: none;}
+.tab table {display: none;}
+/*directory*/
+
 @media only screen and (max-width: 25em) {
     .banner {
         font-size: 0.6rem;
