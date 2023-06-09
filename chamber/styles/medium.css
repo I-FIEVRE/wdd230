@@ -145,7 +145,39 @@
 .joinP form {
     margin: 2rem 5rem;
 } 
+#grid section{
+    border-radius: 15px;
+    border: none;
+    max-width: 300px;
+    margin: 4rem auto;
+    padding: 0.5rem 4rem;
+    border: 3px outset #E8D152;
+}
+#list section{
+    border-radius: 15px;
+    border: none;
+    max-width: 400px;
+    margin: 4rem auto;
+    padding: 0.5rem 4rem;
+    border: 3px outset #E8D152;
+}
+.directory img {
+    margin: 2rem auto;
+    max-width: 99%;
+}
 
 @media only screen and (max-width: 750px) {
     .turin { max-width: 80%;}    
+}
+
+
+@media only screen and (min-width: 50em) {
+    #list section{
+        border-radius: 15px;
+        border: none;
+        max-width: 600px;
+        margin: 4rem auto;
+        padding: 0.5rem 4rem;
+        border: 3px outset #E8D152;
+    } 
 }

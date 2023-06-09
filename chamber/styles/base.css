@@ -431,6 +431,62 @@ figure img {
 }
 .tab table {display: none;}
 /*directory*/
+.directory { text-align: center;}
+.buttons ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.buttons ul  {
+    padding-top: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid rgb(105, 116, 118);
+}
+.buttons ul li {
+    border: 2px outset rgb(4, 33, 71);
+    background-color: #ffffff;
+    color: rgb(4, 33, 71);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: large;
+    padding: 1rem;
+    margin: 1rem 1rem 1.5rem 0;
+}
+.buttons ul li:hover,
+.buttons ul li.active {
+    color: white;
+    background-color:  rgb(4, 33, 71);
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 1rem 0.5rem 1.5rem 0.5rem;
+}
+.gridD {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /*gap: 1rem;*/
+}
+
+#list section, #grid section {
+    border-radius: 15px;
+    border: none;
+    width: 280px;
+    margin: 2rem auto;
+    padding: 0.5rem 2rem;
+    border: 3px outset #E8D152;
+}
+.directory section div {
+    padding-top: 1rem;
+    border-top: 3px outset #E8D152;
+    font-weight: bold;
+}
+.directory img {
+    margin: 2rem auto;
+    max-width: 90%;
+    box-shadow: 10px 10px 5px rgb(72, 76, 77);
+    border-radius: 10px;
+    height: auto;
+}
 
 @media only screen and (max-width: 25em) {
     .banner {
@@ -441,5 +497,15 @@ figure img {
         color: #CA3F36;
         font-weight: 600;
         margin-top: 0.5rem;
-    }  
+    } 
+}
+    @media only screen and (min-width: 26em) {
+        #list section, #grid section {
+            border-radius: 15px;
+            border: none;
+            width: 350px;
+            margin: 2rem auto;
+            padding: 0.5rem 2rem;
+            border: 3px outset #E8D152;
+        }
 }
