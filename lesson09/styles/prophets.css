@@ -63,6 +63,7 @@ footer p {
     border: 2px outset rgb(4, 33, 71);
     background-color: #ffffff;
     color: rgb(4, 33, 71);
+    font-weight: bold;
     border-radius: 5px;
     font-size: small;
     margin-bottom: 1.5rem;
