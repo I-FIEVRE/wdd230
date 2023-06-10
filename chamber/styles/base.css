@@ -471,21 +471,35 @@ figure img {
     border-radius: 15px;
     border: none;
     width: 280px;
-    margin: 2rem auto;
-    padding: 0.5rem 2rem;
+    line-height: 1.2;
     border: 3px outset #E8D152;
 }
 .directory section div {
     padding-top: 1rem;
     border-top: 3px outset #E8D152;
+    margin-top: 1rem;
     font-weight: bold;
 }
+.directory h3 {
+    color: #427198;
+    font-size: 1rem;
+}
 .directory img {
-    margin: 2rem auto;
+    margin: 1rem auto 2rem auto;
     max-width: 90%;
     box-shadow: 10px 10px 5px rgb(72, 76, 77);
     border-radius: 10px;
     height: auto;
+}
+.directory a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #427198;
+}
+.directory a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #CA3F36;
 }
 
 @media only screen and (max-width: 25em) {
@@ -501,11 +515,9 @@ figure img {
 }
     @media only screen and (min-width: 26em) {
         #list section, #grid section {
-            border-radius: 15px;
-            border: none;
-            width: 350px;
-            margin: 2rem auto;
-            padding: 0.5rem 2rem;
-            border: 3px outset #E8D152;
+            width: 450px;
         }
-}
+        .directory h3 {
+            font-size: 1.2rem;
+        }
+    }

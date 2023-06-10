@@ -39,6 +39,7 @@ async function getDirectoryData(url) {
       divi.appendChild(membership);
       gridD.appendChild(card);
     })
+    
   } 
 
   const displayList = (businesses) => {

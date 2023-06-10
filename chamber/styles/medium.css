@@ -145,6 +145,8 @@
 .joinP form {
     margin: 2rem 5rem;
 } 
+/*directory*/
+.directory h1 {font-size: 1.8rem;}
 #grid section{
     border-radius: 15px;
     border: none;
@@ -162,7 +164,7 @@
     border: 3px outset #E8D152;
 }
 .directory img {
-    margin: 2rem auto;
+   
     max-width: 99%;
 }
 
