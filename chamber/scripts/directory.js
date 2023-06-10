@@ -18,7 +18,7 @@ async function getDirectoryData(url) {
       let image = document.createElement('img');
       let phone = document.createElement('p');
       let address = document.createElement('p');
-      let website = document.createElement('p');
+      let website = document.createElement('a');
       let membership = document.createElement('p');
       h3.textContent = `${business.name}`;
       image.setAttribute('src', business.image);
@@ -26,7 +26,9 @@ async function getDirectoryData(url) {
       image.setAttribute('loading', 'lazy');
       phone.textContent = `${business.phone}`;
       address.textContent = `${business.address}`;
-      website.textContent = `${website.website}`;
+      website.setAttribute('href', business.website);
+      website.setAttribute('target', `_blank`);
+      website.textContent = `Website`;
       membership.textContent = `${business.membership}`;
       card.appendChild(h3);
       card.appendChild(image);
@@ -47,12 +49,14 @@ async function getDirectoryData(url) {
       let h3 = document.createElement('h3');
       let phone = document.createElement('p');
       let address = document.createElement('p');
-      let website = document.createElement('p');
+      let website = document.createElement('a');
       let membership = document.createElement('p');
       h3.textContent = `${business.name}`;
       phone.textContent = `${business.phone}`;
       address.textContent = `${business.address}`;
-      website.textContent = `${website.website}`;
+      website.setAttribute('href', business.website);
+      website.setAttribute('target', '_blank');
+      website.textContent = `Website`;
       membership.textContent = `${business.membership}`;
       card.appendChild(h3);
       card.appendChild(phone);
