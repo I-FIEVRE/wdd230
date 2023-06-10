@@ -177,7 +177,7 @@
     }
     .tab tbody tr:nth-child(1) {font-weight: bold;}
     .tab tbody tr:nth-child(even) {background-color: #E4E7E9;}
-    tbody tr:nth-child(-n+5) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-child(4), tbody tr:nth-child(n) td:nth-child(5)  {
+    tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-child(4), tbody tr:nth-child(n) td:nth-child(5)  {
         color: #CA3F36;
         font-weight: bold;
     }
