@@ -37,8 +37,7 @@ async function getDirectoryData(url) {
       card.appendChild(divi);
       divi.appendChild(membership);
       gridD.appendChild(card);
-    })
-    
+    }) 
   } 
 
   const displayList = (businesses) => {
@@ -78,7 +77,7 @@ viewsButtons.forEach((link) => {
       if ((dataCard == 'gridD')) {
         document.querySelector('.' + dataCard).style.display = 'grid';
       } else {
-        document.querySelector('.' + dataCard).style.display = 'flex';//
+        document.querySelector('.' + dataCard).style.display = 'flex';
       }
         
   })
