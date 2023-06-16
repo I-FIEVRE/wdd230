@@ -193,10 +193,8 @@
     .directory h1 {font-size: 2rem;}
     #list section  {
         border-radius: 15px;
-        border: none;
         width: 900px;
         margin: 2rem auto;
         padding: 0.5rem 2rem;
-        border: 3px outset #E8D152;
     }
 }   

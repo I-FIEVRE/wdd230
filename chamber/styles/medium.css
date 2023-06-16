@@ -157,11 +157,11 @@
 }
 #list section{
     border-radius: 15px;
-    border: none;
+    border: 3px outset #E8D152;
     max-width: 400px;
     margin: 4rem auto;
     padding: 0.5rem 4rem;
-    border: 3px outset #E8D152;
+   
 }
 .directory img {
    

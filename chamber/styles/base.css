@@ -456,33 +456,26 @@ figure img {
 .buttons ul li.active {
     color: white;
     background-color:  rgb(4, 33, 71);
-    font-size: large;
+    font-size: large; 
     border-radius: 5px;
     cursor: pointer;
     padding: 1rem;
     margin: 1rem 0.5rem 1.5rem 0.5rem;
+    text-shadow: none;
 }
 .gridD {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     /*gap: 1rem;*/
 }
-
-#list section, #grid section {
-    border-radius: 15px;
-    border: none;
-    width: 280px;
-    line-height: 1.2;
-    border: 3px outset #E8D152;
+.directory h3 {
+    color: #427198;
+    font-size: 1rem;
 }
 .directory section div {
     padding-top: 1rem;
     border-top: 3px outset #E8D152;
     margin-top: 1rem;
     font-weight: bold;
-}
-.directory h3 {
-    color: #427198;
-    font-size: 1rem;
 }
 .directory img {
     margin: 1rem auto 2rem auto;
@@ -501,7 +494,28 @@ figure img {
     font-weight: bold;
     color: #CA3F36;
 }
-
+#list section, #grid section {
+    border: 3px solid #E8D152;
+    border-radius: 15px;
+    width: 280px;
+    line-height: 1.2;
+}
+#list section h3, #list section a {
+    color: black;
+}
+#list section a {
+    border: 2px solid #E8D152;
+    border-radius: 5px;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+#list section a:hover {
+    color:#CA3F36;
+    background-color: #ffffff;
+}
+#list section:nth-child(even) {
+    background-color: #427198;
+    color: #ffffff;}
 @media only screen and (max-width: 25em) {
     .banner {
         font-size: 0.6rem;
