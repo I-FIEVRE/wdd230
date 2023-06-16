@@ -1,5 +1,4 @@
-const url = 'https://raw.githubusercontent.com/I-FIEVRE/wdd230/main/chamber/json/data.json';
-
+const url = 'json/data.json';
 async function getDirectoryData(url) {
     const response = await fetch(url);
     const data = await response.json();
@@ -79,7 +78,7 @@ viewsButtons.forEach((link) => {
       if ((dataCard == 'gridD')) {
         document.querySelector('.' + dataCard).style.display = 'grid';
       } else {
-        document.querySelector('.' + dataCard).style.display = 'flex';
+        document.querySelector('.' + dataCard).style.display = 'flex';//
       }
         
   })
