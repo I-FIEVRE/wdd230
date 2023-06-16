@@ -33,6 +33,7 @@ section div p {
     color: rgb(4, 33, 71);
     font-weight: bold;
 }
+section div span {color: rgb(5, 75, 165);}
 img {
     display: block;
     margin-left: auto;
