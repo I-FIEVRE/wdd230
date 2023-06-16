@@ -431,7 +431,11 @@ figure img {
 }
 .tab table {display: none;}
 /*directory*/
-.directory { text-align: center;}
+.directory { 
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 .buttons ul {
     display: flex;
     justify-content: center;
@@ -463,15 +467,12 @@ figure img {
     margin: 1rem 0.5rem 1.5rem 0.5rem;
     text-shadow: none;
 }
-.gridD {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    /*gap: 1rem;*/
-}
-.directory h3 {
+.gridD { grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));}
+.gridD h3 {
     color: #427198;
     font-size: 1rem;
 }
-.directory section div {
+.gridD section div {
     padding-top: 1rem;
     border-top: 3px outset #E8D152;
     margin-top: 1rem;
@@ -484,38 +485,63 @@ figure img {
     border-radius: 10px;
     height: auto;
 }
-.directory a {
+.gridD a {
     text-decoration: none;
     font-weight: bold;
     color: #427198;
 }
-.directory a:hover {
+.gridD a:hover {
     text-decoration: none;
     font-weight: bold;
     color: #CA3F36;
 }
-#list section, #grid section {
+.gridD section {
     border: 3px solid #E8D152;
     border-radius: 15px;
     width: 280px;
     line-height: 1.2;
 }
-#list section h3, #list section a {
+.listD {
+	display: flex;
+	flex-direction: column;
+}
+.listD section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.listD section > * {
+	margin: 0 0.2rem;
+}
+.listD section{
+	margin: 0.2rem 0;
+	padding: 0.4rem;
+}
+.listD section:nth-child(odd) h3, .listD section:nth-child(odd) a {
     color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
-#list section a {
-    border: 2px solid #E8D152;
-    border-radius: 5px;
-    padding: 0.4rem;
-    margin: 1rem;
+.listD section p {
+    padding: 0.3rem;
 }
-#list section a:hover {
+.listD section:nth-child(even) a:hover {
+    color: #E8D152;
+}
+.listD section:nth-child(odd) a:hover {
     color:#CA3F36;
-    background-color: #ffffff;
 }
-#list section:nth-child(even) {
+.listD section:nth-child(even) { 
     background-color: #427198;
-    color: #ffffff;}
+    color: #ffffff;
+}
+.listD section:nth-child(even) a { 
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
 @media only screen and (max-width: 25em) {
     .banner {
         font-size: 0.6rem;
@@ -527,11 +553,7 @@ figure img {
         margin-top: 0.5rem;
     } 
 }
-    @media only screen and (min-width: 26em) {
-        #list section, #grid section {
-            width: 450px;
-        }
-        .directory h3 {
-            font-size: 1.2rem;
-        }
-    }
+@media only screen and (min-width: 26em) {
+    .gridD section { width: 450px;}
+    .gridD h3 { font-size: 1.2rem;}
+}

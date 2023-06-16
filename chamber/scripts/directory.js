@@ -48,20 +48,14 @@ async function getDirectoryData(url) {
       let card = document.createElement('section');
       let divi = document.createElement('div');
       let h3 = document.createElement('h3');
-      let phone = document.createElement('p');
-      let address = document.createElement('p');
       let website = document.createElement('a');
       let membership = document.createElement('p');
       h3.textContent = `${business.name}`;
-      phone.textContent = `${business.phone}`;
-      address.textContent = `${business.address}`;
       website.setAttribute('href', business.website);
       website.setAttribute('target', '_blank');
       website.textContent = `Website`;
       membership.textContent = `${business.membership}`;
       card.appendChild(h3);
-      card.appendChild(phone);
-      card.appendChild(address);
       card.appendChild(website);
       card.appendChild(divi);
       divi.appendChild(membership);
@@ -85,7 +79,7 @@ viewsButtons.forEach((link) => {
       if ((dataCard == 'gridD')) {
         document.querySelector('.' + dataCard).style.display = 'grid';
       } else {
-        document.querySelector('.' + dataCard).style.display = 'block';
+        document.querySelector('.' + dataCard).style.display = 'flex';
       }
         
   })

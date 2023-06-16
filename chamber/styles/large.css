@@ -191,10 +191,5 @@
         font-size: larger;}
     /*directory*/
     .directory h1 {font-size: 2rem;}
-    #list section  {
-        border-radius: 15px;
-        width: 900px;
-        margin: 2rem auto;
-        padding: 0.5rem 2rem;
-    }
+    .listD section {padding: 0.5rem auto;}
 }   
