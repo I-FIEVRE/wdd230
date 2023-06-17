@@ -2,7 +2,7 @@
     "businesses" : [
         {
             "name": "Mercatò - Rivoli",
-            "address": "C.so IV Novembre 57/b, 10098 RIVOLI",
+            "address": "C.so IV Novembre 57/b, 10098 Rivoli",
             "phone": "011 958 8638",
             "website": "https://www.mymercato.it/punti-vendita/piemonte/mercato-rivoli",
             "image": "images/mercato.jpg",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Officine Vica Spa",
-            "address": "C.so IV Novembre 93, 10098 Rivoli TO",
+            "address": "C.so IV Novembre 93, 10098 Rivoli",
             "phone": "011 959 7916",
             "website": "http://www.officinevica.com/",
             "image": "images/officine-vica.jpg",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Acquajoy",
-            "address": "Viale Colli 107/A, 10098 Rivoli TO",
+            "address": "Viale Colli 107/A, 10098 Rivoli",
             "phone": "011 950 3850",
             "website": "http://www.acquajoy.com//",
             "image": "images/aquajoy.jpg",
@@ -26,7 +26,7 @@
         },
         {
             "name": "Ristorante El Born",
-            "address": "Corso Alcide de Gasperi 73, 10098 Rivoli",
+            "address": "C.so A. de Gasperi 73, 10098 Rivoli",
             "phone": "011 956 1493",
             "website": "http://www.elbornrivoli.com/",
             "image": "images/el-born.jpg",
@@ -38,7 +38,7 @@
             "phone": "011 956 5222",
             "website": "https://www.castellodirivoli.org/",
             "image": "images/castello-di-rivoli.jpg",
-            "membership": "NON PROFIT"
+            "membership": "GOLD"
         },
         {
             "name": "Ristorante Sciabà",
@@ -54,7 +54,7 @@
             "phone": "375 616 2504",
             "website": "http://www.lamolesportsacademy.com/",
             "image": "images/mole-sports.jpg",
-            "membership": "BRONZE"
+            "membership": "SILVER"
         },
         {
             "name": "Conad Superstore",
