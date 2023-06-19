@@ -32,7 +32,6 @@ function  displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc.replace(/(^|\s)\w/g, l => l.toUpperCase()); // to capilise each word
-    captionDesc.css('color','red');
 }
 
 // other way of doing
@@ -41,6 +40,7 @@ function  displayResults(weatherData) {
     .then((jsObject) => {
         console.log(jsObject);
         currentTemp.innerHTML = `<strong>${jsObject.main.temp.toFixed(0)}</strong>`;
+        currentWind.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
         const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
         const desc = jsObject.weather[0].description; // the way to reference the weather array
         weatherIcon.setAttribute('src', iconsrc);
