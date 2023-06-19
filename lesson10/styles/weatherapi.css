@@ -1,0 +1,9 @@
+h1 {color: #427198;}
+img {
+    border: 2px solid #E8D152;
+    padding: 0.5rem;
+}
+figcaption {
+    font-weight: bold;
+    color: #427198;
+}
