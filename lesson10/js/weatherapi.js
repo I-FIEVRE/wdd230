@@ -35,7 +35,7 @@ function  displayResults(weatherData) {
     captionDesc.textContent = desc.replace(/(^|\s)\w/g, l => l.toUpperCase()); // to capilise each word
 }
 
-// other way of doing
+// other way of doing WITH FETCH
 /*fetch(url)
     .then((response) => response.json())
     .then((jsObject) => {
