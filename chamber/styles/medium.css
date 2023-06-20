@@ -165,3 +165,6 @@
 @media only screen and (max-width: 750px) {
     .turin { max-width: 80%;}    
 }
+@media only screen and (min-width: 700px) {
+    .banner { font-weight: bold;}
+}

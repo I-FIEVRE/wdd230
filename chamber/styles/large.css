@@ -13,10 +13,7 @@
         padding-left: 2rem;
     }
     .social { flex: 1 1 120px;}
-   .banner { 
-    font-size: 1.3rem;
-    font-weight: bold;
-}
+   .banner { font-size: 1.3rem;}
     nav ul li a {
         display: block;
         color: #ffffff;
