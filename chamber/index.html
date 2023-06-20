@@ -81,10 +81,12 @@
         </aside>
         <aside class="weather">
             <h2>Weather</h2>
-            <p><span id="temperature">9</span>&#176;C</p>
-            <h3>Cloudy Sunny</h3>
-            <img src="images/landscape-weather.jpg" alt="landscape weather today">
-            <p>Wind Speed: <span id="wind-speed">10</span>km&#47;h</p>
+            <p><span id="temperature"></span>&#176;C</p>
+            <figure>
+                <img src="" alt="" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+            <p>Wind Speed: <span id="wind-speed"></span>m&#47;s</p>
             <p>Wind Chill: <span id="wind-chill"></span></p>
         </aside>
         <aside class="news-release">
@@ -133,6 +135,7 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/header.js"></script>
+    <script src="scripts/weatherapi.js"></script>
     <script src="scripts/windchill.js"></script>
 </body>
 </html>
