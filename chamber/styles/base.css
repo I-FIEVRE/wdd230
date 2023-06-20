@@ -267,12 +267,20 @@ main p {
  }
 .join-1:hover { background-color: #CA3F36;}
 .weather img {
-    max-width: 80%;
+    max-width: 100%;
+    border-radius: 50%;
+    padding: 0.5rem;
     height:auto;
     justify-self: center;
 }
+.weather figcaption {
+    color: #427198;
+    font-weight: bold;
+}
 .weather p { padding-bottom: 0;}
-.wind { margin: 1rem;}
+.weather { 
+    padding-bottom: 1rem;
+}
 .hero { max-height: 350px;}
 .article img {
    margin-left: auto;

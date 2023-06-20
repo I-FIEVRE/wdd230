@@ -3,7 +3,7 @@ const currentWind = document.querySelector('#wind-speed');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=rivoli,it&appid=a2d4b0a9d6c39728fb31121be782a624';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=rivoli,it&units=metric&appid=c12767dcec69b4d10efe54dc62a3825b';
 
 async function apiFetch() {
     try {
