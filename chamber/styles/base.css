@@ -269,6 +269,7 @@ main p {
 .weather img {
     max-width: 100%;
     border-radius: 50%;
+    background-color: #427198;
     padding: 0.5rem;
     height:auto;
     justify-self: center;
