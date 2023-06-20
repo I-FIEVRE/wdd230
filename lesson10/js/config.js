@@ -1,1 +1,0 @@
-let config = {SECRET_API_KEY : 'a2d4b0a9d6c39728fb31121be782a624',};
