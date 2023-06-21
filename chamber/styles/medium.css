@@ -80,6 +80,10 @@
         margin-bottom: 1rem;
         font-size: 1.4rem;
     }
+    #hid-img {
+        display: block;
+        margin: 2rem auto;
+    }
     main h2 { font-size: 1.4rem;}   
     main h3 { font-size: 1.1rem; }
     main p { font-size: 1rem;}
@@ -101,10 +105,8 @@
     }
     figcaption {margin-top: 0.4rem;}
    /*footer*/
-   
     p.base {display: none;}
     p.medium {display: block;}  
-   
     .date {padding: 0.3rem;}
     footer div { margin-bottom: 0;}
     .grid-footer {
@@ -140,27 +142,27 @@
         font-size: 1.2rem;
     }
     footer div p { margin-top: 0;}
+    /*join*/
+    .joinP form {
+        margin: 2rem 5rem;
+    } 
+    /*directory*/
+    .directory h1 {font-size: 1.8rem;}
+    .gridD { 
+        display: flex;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));}
+    .gridD section{
+        border-radius: 15px;
+        max-width: 350px;
+        margin: 2rem auto;  
+    }
+    .listD section{
+        padding: 0.5rem 2rem;  
+    }
+    .directory img {
+        max-width: 99%; 
+    }
 }   
-/*join*/
-.joinP form {
-    margin: 2rem 5rem;
-} 
-/*directory*/
-.directory h1 {font-size: 1.8rem;}
-.gridD section{
-    border-radius: 15px;
-    border: 3px outset #E8D152;
-    max-width: 300px;
-    margin: 4rem auto;
-    padding: 0.5rem 4rem;
-    border: 3px outset #E8D152;
-}
-.listD section{
-    padding: 0.5rem 2rem;  
-}
-.directory img {
-    max-width: 99%;
-}
 
 @media only screen and (max-width: 750px) {
     .turin { max-width: 80%;}    

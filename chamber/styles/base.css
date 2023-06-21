@@ -155,8 +155,6 @@ nav ul li a:hover { font-weight: bold;}
 .do {display: none;}
 .article { padding: 0.5rem;}
 .spotlight-3 {display: none;}
-
-/*hero*/
 .hero{
 	display: grid;
 	grid-template-columns: 1fr 4fr 1fr;	
@@ -176,18 +174,20 @@ nav ul li a:hover { font-weight: bold;}
     grid-column: 2/3;
     grid-row: 3/4;
 }
+.join, .join-1, main article, .weather img { background-color: #427198;}
+.join, .join-1 {
+    color: #ffffff;
+    border: 5px outset #E8D152;
+    text-decoration: none;
+}
 .join{
-   background-color: #427198;
-   color: #ffffff;
-   border: 5px outset #E8D152;
-   text-decoration: none;
    font-size: 0.9rem;
    font-weight: 700;
    border-radius: 10px;
    margin: 0;
    padding: 10px;
 }
-.join:hover { 
+.join:hover, .join-1:hover { 
     background-color: #CA3F36; 
  }
 main picture.hero-img img {
@@ -195,7 +195,6 @@ main picture.hero-img img {
     height:100%;
     object-fit: cover;
 }
-/*general main */
 .logo-header h2 {
     text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
 }
@@ -215,28 +214,23 @@ main picture.hero-img img {
 }
 .event a, .central a {
     text-decoration: none;
-    color: #427198;
     font-weight: bold;
 }
 .event a:hover, .central a:hover { color: #CA3F36;}
 main article {
 	line-height: 1.2;
-	border: 7px outset #E8D152;
-    background-color: #427198;
     color: #ffffff;
     font-weight: 400;
 }
 main article h3{ padding: 1rem;}
+main h1, main h2, .weather figcaption, .event a, .central a { color: #427198;}
 main h1 {
     margin-top: 2rem;
     font-size: 1.3rem;
-    color: #427198;
-   /* text-shadow: 1px 2px #0a0874;*/
 }
 main h2 {
     padding-top: 0.5rem;
     font-size: 1.2rem;
-    color: #427198;
     line-height: 1rem;
 }
 .article h2 { color: #ffffff;}
@@ -253,10 +247,6 @@ main p {
 	margin: auto;
 }
 .join-1 {
-    background-color: #427198;
-    color: #ffffff;
-    border: 5px outset #E8D152;
-    text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
     border-radius: 10px;
@@ -265,17 +255,15 @@ main p {
     margin-top: 1rem;
     padding: 15px 15px;
  }
-.join-1:hover { background-color: #CA3F36;}
+#hid-img {display: none;}
 .weather img {
     max-width: 100%;
     border-radius: 50%;
-    background-color: #427198;
     padding: 0.5rem;
     height:auto;
     justify-self: center;
 }
 .weather figcaption {
-    color: #427198;
     font-weight: bold;
 }
 .weather p { padding-bottom: 0;}
@@ -357,24 +345,21 @@ figure img {
     border-radius: 10px;
     border: 5px outset #E8D152;
 }
-.background {
-    max-width: 85vw;
-    margin: 2rem auto;
+.background, .background1 {
     border: 7px outset #E8D152;
     border-radius: 10px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     box-shadow: 0 0 1em black, 0 0 2em #696969;
+}
+.background {
+    max-width: 85vw;
+    margin: 2rem auto;
     text-align: center;
 }
 .background1 {
     max-width: 70vw;
     margin: 1rem auto;
-    border: 7px outset #E8D152;
-    border-radius: 10px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    box-shadow: 0 0 1em black, 0 0 2em #696969;
 }
 /*thank you*/
 .thy h2, .thy h3, .thy p {
@@ -476,7 +461,6 @@ figure img {
     margin: 1rem 0.5rem 1.5rem 0.5rem;
     text-shadow: none;
 }
-.gridD { grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));}
 .gridD h3 {
     color: #427198;
     font-size: 1rem;
@@ -508,6 +492,8 @@ figure img {
     border: 3px solid #E8D152;
     border-radius: 15px;
     width: 280px;
+    margin: 1rem auto;
+    padding: 0.5rem 4rem;
     line-height: 1.2;
 }
 .listD {
