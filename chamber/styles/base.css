@@ -366,7 +366,7 @@ figure img {
     text-align: center;
     margin: 2rem auto;
 }
-/*join*/
+
 .joinP h1 {text-align: center;}
 .joinP  {
     padding: 10px;   
@@ -549,6 +549,6 @@ figure img {
     } 
 }
 @media only screen and (min-width: 26em) {
-    .gridD section { width: 450px;}
+    .gridD section { width: 400px;}
     .gridD h3 { font-size: 1.2rem;}
 }
