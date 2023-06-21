@@ -79,8 +79,7 @@
         margin: auto;
         margin-bottom: 4rem;
         font-size: 1.6rem;   
-    }
-   
+    }  
     .event, .weather { margin-bottom: 0.5rem;}
     main h2 { font-size: 1.6rem;}   
     main h3 {
@@ -104,7 +103,7 @@
         margin-left: 0.6rem;  
         justify-content: center;
     }
-    .logo-footer { flex: 0 1 450px;    }
+    .logo-footer { flex: 0 1 450px;}
     .locaction {
         flex: 0 1 450px;
         font-size: 1.6rem;
@@ -113,7 +112,7 @@
     .discover h1 { font-size: 2rem;}
     .background { max-width: 70vw;}
     .background1 { max-width: 50vw;}
-    /*join*/
+    /*join and contact*/
     .joinP form {
         margin: 2rem 15rem;
     } 
@@ -147,49 +146,6 @@
     }
     .joinP h1 {font-size: 2rem;}
     .joinP legend {font-size: 1.3rem;}
-    .tab thead, .tab tbody, .tab table {max-width: fit-content;}
-    .tab table {
-        margin: 10px auto;
-        text-align: center;
-        border: 3px outset #E8D152;
-        border-radius: 10px;
-        box-shadow: 0 0 10px var(--shadow);
-        border-collapse: collapse;  
-    }
-    .tab th:nth-child(1) {
-        background-color: #CA3F36;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        color: #ffffff;
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-    .tab thead tr:nth-child(2) th:nth-child(1) {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-    }
-    .tab th, .tab td {
-        padding: 7px 15px;
-        border: 1px solid hsla(0,0%,33%,.3);
-    }
-    .tab th {
-        background-color: #da5f56;
-        font-size: larger;
-    }
-    .tab tbody tr:nth-child(1) {font-weight: bold;}
-    .tab tbody tr:nth-child(even) {background-color: #E4E7E9;}
-    tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-child(4), tbody tr:nth-child(n) td:nth-child(5)  {
-        color: #CA3F36;
-        font-weight: bold;
-    }
-    .tab tbody tr td:nth-child(1) {
-        color: black;
-        font-weight: bold;
-    }
-    .tab tbody tr:nth-child(1){ border-top: 3px outset #E8D152;}
-    .subBtn {
-        margin-top: 2rem;
-        font-size: larger;}
     /*directory*/
     .directory h1 {font-size: 2rem;}
 }   

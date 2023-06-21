@@ -49,9 +49,74 @@
             <p><span id="currentdate"></span></p>
         </div>
     </header>
-    <main class="grid-home">
+    <main class="joinP">
         <div>
-
+            <h1>Contact Us</h1>
+            <p>Send us your questions or comments using the form below. We will respond promptly to your inquiry.</p>
+            <form method="get" action="thanks.html">
+                <div class="join-grid">
+                    <fieldset class="f1">
+                        <legend>Contact Information</legend>
+                        <label class="info">First Name* <input type="text" name="fname" required></label>
+                        <label class="info">Last Name* <input type="text" name="lname" required></label>
+                        <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="info">Business Name* <input type="text" name="fname" required></label>
+                    </fieldset>
+                    <fieldset class="f2">
+                        <legend>Are you a Chamber Member&#63;</legend>
+                        <label class="member"><input type="radio" name="membership" value="Yes" required> Yes</label>
+                        <label class="member"><input type="radio" name="membership" value="No"> No</label>
+                        <label class="member"><input type="radio" name="membership" value="NotSure"> Not Sure</label>
+                    </fieldset>
+                    <fieldset class="f3">
+                        <legend>Your Questions or Comments</legend>
+                        <label class="info">Message<textarea name="description" required></textarea></label>
+                    </fieldset>
+                    <div class="tab">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="3" scope="colgroup">Visit Us and Contact Us</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="3" class="red">Visit Us</td>
+                                </tr>
+                                <tr>
+                                    <td  class="white"></td>
+                                    <td class="white">Monday &#45; Thursday</td>
+                                    <td class="white">Friday</td>
+                                </tr>
+                                <tr>
+                                    <td>Morning<br>Afternoon</td>
+                                    <td >9am &#45; 12am<br>Appointment</td>
+                                    <td >Appointment<br>Closed</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="red">Contact Us</td>
+                                </tr>
+                                <tr>
+                                    <td  class="white"></td>
+                                    <td >Monday &#45; Thursday</td>
+                                    <td >Friday</td>
+                                </tr>
+                                <tr>
+                                    <td class="white">Morning<br>Afternoon</td>
+                                    <td class="white">Closed<br>2pm &#45; 5pm</td>
+                                    <td class="white">9am &#45; 12am<br>Closed</td>
+                                </tr>
+                                <tr>
+                                    <td class="white">Phone</td>
+                                    <td class="white">011 951 1885<br>011 951 1790</td>
+                                    <td class="white">011 951 1884<br>011 951 3427</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>    
+                <input type="submit" value="Send My Message" class="subBtn">
+            </form>
         </div>
     </main>
     <footer>

@@ -366,7 +366,7 @@ figure img {
     text-align: center;
     margin: 2rem auto;
 }
-
+/*join and contact*/
 .joinP h1 {text-align: center;}
 .joinP  {
     padding: 10px;   
@@ -396,10 +396,10 @@ figure img {
     padding: .5rem;
 }
 .joinP form textarea {min-height: 100px;}
-.joinP form label.info input:required {
+.joinP form label.info input:required, .joinP form textarea:required {
     border: #CA3F36 solid 1px;
 }
-.joinP form label.info input:required:valid {
+.joinP form label.info input:required:valid, .joinP form textarea:required:valid {
     border: #427198 solid 1px;
 }
 .joinP form legend {
@@ -424,6 +424,50 @@ figure img {
     color: #ffffff;
 }
 .tab table {display: none;}
+.tab thead, .tab tbody, .tab table {max-width: fit-content;}
+.tab table {
+    margin: 10px auto;
+    text-align: center;
+    border: 3px outset #E8D152;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--shadow);
+    border-collapse: collapse;  
+}
+.tab th:nth-child(1) {
+    background-color: #CA3F36;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.tab thead tr:nth-child(2) th:nth-child(1) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.tab th, .tab td {
+    padding: 7px 15px;
+    border: 1px solid hsla(0,0%,33%,.3);
+}
+.tab th, .red {
+    background-color: #da5f56;
+    font-size: larger;
+}
+.tab tbody tr:nth-child(1) {font-weight: bold;}
+.tab tbody tr:nth-child(even) {background-color: #E4E7E9;}
+tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-child(4), tbody tr:nth-child(n) td:nth-child(5)  {
+    color: #CA3F36;
+    font-weight: bold;
+}
+.tab tbody tr td:nth-child(1) {
+    color: black;
+    font-weight: bold;
+}
+.tab tbody tr:nth-child(1){ border-top: 3px outset #E8D152;}
+.white {
+    background-color: #ffffff;
+    font-weight: bold;
+}
 /*directory*/
 .directory { 
     text-align: center;
@@ -549,6 +593,11 @@ figure img {
     } 
 }
 @media only screen and (min-width: 26em) {
+    .tab table {display: block;}
+    .subBtn {
+        margin-top: 2rem;
+        font-size: larger;
+    }
     .gridD section { width: 400px;}
     .gridD h3 { font-size: 1.2rem;}
 }
