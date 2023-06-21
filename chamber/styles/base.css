@@ -135,7 +135,7 @@ nav ul li a:hover { font-weight: bold;}
 .logo {
 	max-width: 70px;
 	border-radius: 15px;
-	transition: 0.5s;
+	transition: transform 0.5s;
   }
 .logo:hover {
 	content: url('../images/logo-b.webp');
