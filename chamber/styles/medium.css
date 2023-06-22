@@ -10,6 +10,12 @@
     }
     .logo { max-width: 120px;}
     .logo:hover { max-width: 120px;}
+    .active{
+        font-weight: bold;
+        background: linear-gradient(90deg, transparent, #ffffff, transparent) bottom /
+        var(--d) 3px no-repeat;
+        --d: 75%;
+    }
     .title h2 {
         font-size: 3rem;
         letter-spacing: 0.2rem;
@@ -17,6 +23,7 @@
         margin: 0.1em 0;
     }
     .m { font-size: 1rem;}
+    .social { margin-right: 50px;}
     .social img { max-width: 40px;}
     /*main*/
     .grid-home {
@@ -170,4 +177,5 @@
 }
 @media only screen and (min-width: 700px) {
     .banner { font-weight: bold;}
+    .social { margin-right: 100px;}
 }

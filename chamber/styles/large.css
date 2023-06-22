@@ -9,14 +9,20 @@
         flex: 8 1 100px;
     }
     nav ul{
-        font-size: 1rem;
-        padding-left: 2rem;
+        font-size: 1.3rem;
+        padding-left: 4rem;
+        margin-left: 50px;
     }
-    .social { flex: 1 1 120px;}
+
+    .social { 
+        flex: 1 1 120px;
+        margin-right: 50px;
+    }
    .banner { font-size: 1.3rem;}
     nav ul li a {
         display: block;
         color: #ffffff;
+        margin-left: 2rem;
         text-align: center;
         text-decoration: none;
         transition: 0.5s;

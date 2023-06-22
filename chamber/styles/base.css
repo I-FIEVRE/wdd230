@@ -33,8 +33,13 @@ header {
 .logo-header {
     display: flex;
     align-items: center;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     flex: 3 1 50px;
+}
+.logo-header a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
 }
 #primaryNav { flex: 1 1 50px;}
 .title {
@@ -62,7 +67,7 @@ header {
 }
 .rivoli-nav-1 { display: none;}
 nav button {
-    margin: .1rem 1vw; 
+    margin: 1rem 1vw; 
     background-color: transparent;
     border: none;
     font-size: 2rem;
@@ -72,11 +77,28 @@ button span:nth-child(2) {
     font-size: 1.2rem;
     margin-bottom: 0;
 }
-.logo { margin: 1rem auto;}
+.logo, .title { 
+    margin: 1rem auto;
+    transition: transform 0.5s;
+}
+.logo {
+	max-width: 70px;
+	border-radius: 15px;
+  }
+.logo:hover {
+	content: url('../images/logo-b.webp');
+	max-width: 80px;
+}
 .title {
     line-height: 0.8;
     font-size: 0.6rem;
+    padding-left: 0.3rem;
     padding-right: 0.5rem;
+    color:#ffffff;
+}
+.title:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
 }
 .linkedin {
     background-color: #ffffff;
@@ -113,7 +135,7 @@ nav ul.open {display: block;}
 nav {
 	list-style-type: none;
 	line-height: 1em;
-	font-size:0.9rem;
+	font-size:0.7rem;
 }
 nav ul {
 	list-style-type: none;
@@ -123,7 +145,7 @@ nav ul {
 nav ul li a {
 	display: block;
 	color: #ffffff;
-	padding: 0.4rem 1vw;
+	padding: 0.4rem 0.7vw;
 	text-decoration: none;
 }
 .active {
@@ -132,15 +154,7 @@ nav ul li a {
     text-shadow: 1px 1px 2px #8f1108, 0 0 25px #da5f56, 0 0 5px #740f08;
 }
 nav ul li a:hover { font-weight: bold;}
-.logo {
-	max-width: 70px;
-	border-radius: 15px;
-	transition: transform 0.5s;
-  }
-.logo:hover {
-	content: url('../images/logo-b.webp');
-	max-width: 80px;
-}
+
 /*main*/
 .grid-home {
 	display: grid;
@@ -594,6 +608,7 @@ tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-chi
     } 
 }
 @media only screen and (min-width: 26em) {
+    nav { font-size: 0.9rem;}
     .tab table {display: block;}
     .subBtn {
         margin-top: 2rem;
