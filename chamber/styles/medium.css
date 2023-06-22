@@ -10,7 +10,7 @@
     }
     .logo { max-width: 120px;}
     .logo:hover { max-width: 120px;}
-    .active{
+    .active1{
         font-weight: bold;
         background: linear-gradient(90deg, transparent, #ffffff, transparent) bottom /
         var(--d) 3px no-repeat;
