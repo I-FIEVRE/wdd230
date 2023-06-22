@@ -283,6 +283,12 @@ main p {
 .weather { 
     padding-bottom: 1rem;
 }
+.weather p:nth-child(1) {
+    border: 2px solid #E8D152;
+    border-radius: 15px;
+    margin: 1rem 5rem;
+    padding: 0.5rem;
+}
 .hero { max-height: 350px;}
 .article img {
    margin-left: auto;
