@@ -10,7 +10,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+       // console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());
@@ -19,8 +19,6 @@ async function apiFetch() {
         console.log(error);
     }
 }
-  
-apiFetch();
 
 function  displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
@@ -33,3 +31,5 @@ function  displayResults(weatherData) {
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc.replace(/(^|\s)\w/g, l => l.toUpperCase()); // to capilise each word
 }
+
+apiFetch();
