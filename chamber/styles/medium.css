@@ -51,6 +51,10 @@
         grid-area: event;
         margin-bottom: 1rem;
     }
+    .event p {
+        padding: 2rem 1rem;
+        height: 150px;
+    }
     .weather {
         grid-area: weather;
         margin-bottom: 1rem;

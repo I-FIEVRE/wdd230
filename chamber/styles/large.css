@@ -86,6 +86,10 @@
         font-size: 1.6rem;   
     }  
     .event, .weather { margin-bottom: 0.5rem;}
+    .event p {
+        padding: 2rem 1rem;
+        height: auto;
+    }
     main h2 { font-size: 1.6rem;}   
     main h3 {
         font-size: 1.2rem;
