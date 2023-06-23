@@ -51,10 +51,10 @@
         grid-area: event;
         margin-bottom: 1rem;
     }
-    .event p {
-        padding: 2rem 1rem;
+   /* .event p {
+        padding: 1.5rem 1rem;
         height: 150px;
-    }
+    }*/
     .weather {
         grid-area: weather;
         margin-bottom: 1rem;
@@ -179,7 +179,7 @@
 @media only screen and (max-width: 750px) {
     .weather p:nth-child(1) {
         margin: 1rem 3rem;
-    }  
+    } 
     .turin { max-width: 80%;}  
 }
 @media only screen and (min-width: 700px) {

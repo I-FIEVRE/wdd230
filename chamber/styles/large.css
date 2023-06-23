@@ -86,9 +86,9 @@
         font-size: 1.6rem;   
     }  
     .event, .weather { margin-bottom: 0.5rem;}
-    .event p {
-        padding: 2rem 1rem;
-        height: auto;
+    .event div { 
+        height: 180px;
+        padding: 7% 0.5rem;
     }
     main h2 { font-size: 1.6rem;}   
     main h3 {
@@ -158,9 +158,10 @@
     /*directory*/
     .directory h1 {font-size: 2rem;}
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width:64em) and (max-width: 1100px) {
     nav ul{
         padding-left: 1rem;
         margin-left: 30px;
     }  
+    .event div {  height: 200px;}
 }   
