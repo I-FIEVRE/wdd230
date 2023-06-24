@@ -244,6 +244,10 @@ main article {
     font-weight: 400;
 }
 main article h3{ padding: 1rem;}
+main article a {
+    padding-bottom: 0.5rem;
+    color: #ffffff;
+}
 main h1, main h2, .weather figcaption, .tab a, .event a, .central a { color: #427198;}
 main h1 {
     margin-top: 2rem;
@@ -251,10 +255,14 @@ main h1 {
 }
 main h2 {
     padding-top: 0.5rem;
-    font-size: 1.2rem;
-    line-height: 1rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
 }
 .article h2 { color: #ffffff;}
+.article img {
+    max-width: 80%;
+    height: auto;
+}
 main h3 {
     font-size: 1rem; 
     line-height: 1rem;    
@@ -622,6 +630,7 @@ tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-chi
         margin: 0 10px 0 0;
         padding: 0 0 0 5px;
     }
+    .article h2 {font-size: 1.3rem;}
     .tab table {display: block;}
     .subBtn {
         margin-top: 2rem;

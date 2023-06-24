@@ -1,0 +1,52 @@
+{
+    "businesses" : [
+        {
+            "name": "Mercatò - Rivoli",
+            "address": "C.so IV Novembre 57/b, 10098 Rivoli",
+            "phone": "011 958 8638",
+            "website": "https://www.mymercato.it/punti-vendita/piemonte/mercato-rivoli",
+            "image": "images/mercato.jpg",
+            "membership": "GOLD"
+        },
+        {
+            "name": "Officine Vica Spa",
+            "address": "C.so IV Novembre 93, 10098 Rivoli",
+            "phone": "011 959 7916",
+            "website": "http://www.officinevica.com/",
+            "image": "images/officine-vica.jpg",
+            "membership": "GOLD"
+        },
+        {
+            "name": "Acquajoy",
+            "address": "Viale Colli 107/A, 10098 Rivoli",
+            "phone": "011 950 3850",
+            "website": "http://www.acquajoy.com//",
+            "image": "images/aquajoy.jpg",
+            "membership": "SILVER"
+        },
+        {
+            "name": "Castello di Rivoli",
+            "address": "Piazzale M. di Savoia 2, 10098 Rivoli",
+            "phone": "011 956 5222",
+            "website": "https://www.castellodirivoli.org/",
+            "image": "images/castello-di-rivoli.jpg",
+            "membership": "GOLD"
+        },
+        {
+            "name": "La Mole Sports Academy",
+            "address": "Via Chivasso 8, 10098 Rivoli",
+            "phone": "375 616 2504",
+            "website": "http://www.lamolesportsacademy.com/",
+            "image": "images/mole-sports.jpg",
+            "membership": "SILVER"
+        },
+        {
+            "name": "Conad Superstore",
+            "address": "C.so Francia 175, 10098 Rivoli",
+            "phone": "011 959 3838",
+            "website": "https://www.conad.it/ricerca-negozi/conad-superstore-corso-francia-175-10098-rivoli--008691",
+            "image": "images/conad.jpg",
+            "membership": "GOLD"
+        }
+    ]
+}
