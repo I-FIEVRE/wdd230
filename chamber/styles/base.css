@@ -486,7 +486,7 @@ figure img {
     font-size: larger;
 }
 .tab tbody tr:nth-child(1) {font-weight: bold;}
-.tab tbody tr:nth-child(even) {background-color: #f1f4f6;}
+.tab tbody tr:nth-child(even) {background-color: #F1F8F1;}
 tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-child(4), tbody tr:nth-child(n) td:nth-child(5)  {
     color: #CA3F36;
     font-weight: bolder;
