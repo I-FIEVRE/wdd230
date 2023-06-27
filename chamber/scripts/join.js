@@ -1,1 +1,2 @@
-//<input id="dateTime" type="text" name="dateTime" value="">
+var now = new Date();
+document.getElementById('dateTime').value = `${now.toLocaleDateString()}, ${now.toLocaleTimeString()}`;
