@@ -2,31 +2,28 @@ const urlSpotlight = 'json/spotlight.json';
 
 let nb1 = Math.floor(Math.random()*6); 
   let n1 = nb1;
-  console.log(nb1);
   
 let nb2 = Math.floor(Math.random()*6); 
 while (nb2 == n1) {
     nb2 = Math.floor(Math.random()*6);
 };
 let n2 = nb2;
-console.log(nb2);
 
 let nb3 = Math.floor(Math.random()*6); 
 while ( nb3 == n1 || nb3 == n2) {
   nb3 = Math.floor(Math.random()*6);
 };
 let n3 = nb3;
-console.log(nb3);
 
 async function getDirectoryData(urlSpotlight) {
   try {
-    const response = await fetch(urlSpotlight);
+  const response = await fetch(urlSpotlight);
     if (response.ok) {
-      const data = await response.json();
+  const data = await response.json();
       
-      createSpotlight(data.businesses, nb1, 'spotlight-1');
-      createSpotlight(data.businesses, nb2, 'spotlight-2');
-      createSpotlight(data.businesses, nb3, 'spotlight-3');
+  createSpotlight(data.businesses, nb1, 'spotlight-1');
+  createSpotlight(data.businesses, nb2, 'spotlight-2');
+  createSpotlight(data.businesses, nb3, 'spotlight-3');
       
     } else {
       throw Error(await response.text());
