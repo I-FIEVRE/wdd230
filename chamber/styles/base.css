@@ -221,7 +221,6 @@ main picture.hero-img img {
     border: 5px outset #E8D152;
     margin: 0.5rem;
 }
-
 .event div {
     display: flex;
     border: 2px dashed rgb(238, 74, 102);
@@ -263,6 +262,7 @@ main h2 {
     max-width: 80%;
     height: auto;
 }
+.article a:hover {font-weight: bold;}
 main h3 {
     font-size: 1rem; 
     line-height: 1rem;    
