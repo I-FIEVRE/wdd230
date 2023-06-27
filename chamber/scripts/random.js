@@ -16,21 +16,11 @@ while ( nb3 == n1 || nb3 == n2) {
 let n3 = nb3;
 
 async function getDirectoryData(urlSpotlight) {
-  try {
   const response = await fetch(urlSpotlight);
-    if (response.ok) {
-  const data = await response.json();
-      
+  const data = await response.json();   
   createSpotlight(data.businesses, nb1, 'spotlight-1');
   createSpotlight(data.businesses, nb2, 'spotlight-2');
   createSpotlight(data.businesses, nb3, 'spotlight-3');
-      
-    } else {
-      throw Error(await response.text());
-  }
-} catch (error) {
-    console.log(error);
-  }  
 }  
 
 function createSpotlight (businesses, n, spotlight) {
