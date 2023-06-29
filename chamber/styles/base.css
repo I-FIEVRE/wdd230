@@ -343,6 +343,10 @@ hr.foot {
     margin: 0 2rem;
   }
 p.medium {display: none;}  
+.home-footer a {
+    color: #ffffff;
+    font-weight: bold;
+}
 /*banner animation*/
 .banner {
     animation-duration: 3s;
@@ -575,7 +579,7 @@ tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-chi
     line-height: 1.2;
 }
 .listD {
-	display: flex;
+	/*display: flex;*/
 	flex-direction: column;
 }
 .listD section {
@@ -615,6 +619,7 @@ tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-chi
     color: #ffffff;
     text-decoration: none;
 }
+
 @media only screen and (max-width: 25em) {
     .banner {
         font-size: 0.6rem;

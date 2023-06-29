@@ -77,7 +77,7 @@ viewsButtons.forEach((link) => {
       if ((dataCard == 'gridD')) {
         document.querySelector('.' + dataCard).style.display = 'grid';
       } else {
-        document.querySelector('.' + dataCard).style.display = 'block';
+        document.querySelector('.' + dataCard).style.display = 'flex';
       }
         
   })
