@@ -347,6 +347,7 @@ p.medium {display: none;}
     color: #ffffff;
     font-weight: bold;
 }
+.home-footer p {margin: 0.5em auto;}
 /*banner animation*/
 .banner {
     animation-duration: 3s;
