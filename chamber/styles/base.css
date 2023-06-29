@@ -560,16 +560,12 @@ tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-chi
     border-radius: 10px;
     height: auto;
 }
-.gridD a {
+.gridD a, .gridD a:hover  {
     text-decoration: none;
     font-weight: bold;
-    color: #427198;
 }
-.gridD a:hover {
-    text-decoration: none;
-    font-weight: bold;
-    color: #CA3F36;
-}
+.gridD a { color: #427198;}
+.gridD a:hover { color: #CA3F36;}
 .gridD section {
     border: 3px solid #E8D152;
     border-radius: 15px;
@@ -578,10 +574,7 @@ tbody tr:nth-child(-n+6) td:nth-child(-n+3), tbody tr:nth-child(-n+8) td:nth-chi
     padding: 0.5rem 4rem;
     line-height: 1.2;
 }
-.listD {
-	/*display: flex;*/
-	flex-direction: column;
-}
+.listD { flex-direction: column;}
 .listD section {
 	display: grid;
 	grid-template-columns: 2fr 1fr 1fr;
