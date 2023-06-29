@@ -343,7 +343,7 @@ hr.foot {
     margin: 0 2rem;
   }
 p.medium {display: none;}  
-.home-footer a {
+.home-footer a, .discover-footer a, .directory-footer a {
     color: #ffffff;
     font-weight: bold;
 }
